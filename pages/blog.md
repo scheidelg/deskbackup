@@ -1,5 +1,14 @@
 # Blog
 
+ * Blog entries are listed in reverse-chronological order, top-to-bottom.
+
+ * Each blog entry footnote includes a list of tags (e.g., '#scripting #bash').  I'll try to be consistent in the tag names and usage.
+
+ * Each blog entry footnote includes a timestamp, for example '2020.03.21 14:10 ET'.  If I make significant updates after the initial post, then I'll (a) summarize the changes at the bottom of the blog entry and (b) append text to the footnote similar to '(Last Edited 2020.03.23 08:57 ET)'.
+
+ * See the [blog entry on 'MDwiki and Blogging'](/pages/blog.md#MDwiki_and_Blogging) for details on why I'm not using a fancy blogging interface.
+
+<hr class="tight">
 ## MDwiki and File Timestamps
 
 I thought it would be nice to include timestamps on each of the pages displayed on this MDwiki.  Initially I just put a static timestamp similar to what I put at the bottom of each one of these 'blog' entries, something like:
@@ -96,7 +105,7 @@ References:
 <hr class="tight">
 ## MDwiki and Blogging
 
-Initially I was hoping to integrate a basic blog-like capability into this website, using MDwiki's 'iframe' gimmick.  The <a href="http://dynalon.github.io/mdwiki/#!blog.md" target="_blank">http://<span></span>dynalon.<span></span>github.<span></span>io/mdwiki/#!blog.md</a> webpage demonstrates this with a `blog.md` file that consists solely of:
+Originally I was hoping to integrate a basic blog-like capability into this website, using MDwiki's 'iframe' gimmick.  The <a href="http://dynalon.github.io/mdwiki/#!blog.md" target="_blank">http://<span></span>dynalon.<span></span>github.<span></span>io/mdwiki/#!blog.md</a> webpage demonstrates this with a `blog.md` file that consists solely of:
 
 ```markdown
 MDwiki Blog
@@ -109,5 +118,5 @@ Unfortunately this utterly failed when I tested this out by using exactly that s
 
 *#MDwiki #blog | 2020.03.22 01:03 ET*
 
-<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 17:10 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 18:33 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
