@@ -45,7 +45,6 @@ There's an extra step, however, if we want to use the actual URL as the displaye
 Click <a href="http://www.example.com" target="_blank">http://<span></span>www.<span></span>example.<span></span>com</a> to activate the web page.
 ```
 
-<hr class="tight">
 ## Other References
 
 Other markdown references:
@@ -70,5 +69,5 @@ Other markdown references:
    
    [http://dynalon.github.io/mdwiki/#!layout.md]()
 
-<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 15:44 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 16:17 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
