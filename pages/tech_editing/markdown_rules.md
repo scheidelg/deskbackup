@@ -4,7 +4,6 @@ This is a collection of rules for me to follow when using markdown (primarily on
 
 OK, maybe they're more like guidelines. There are always edge cases where it doesn't make sense to apply the rules. ;)
 
-<hr class="tight">
 ## Open External Content in New Windows or Tabs
 
 It bugs me when I'm a web page with "step-by-step" instructions includes a link to external content, and clicking on the link renders that external content in the same tab -- meaning that the instructions are now replaced with the new content.
