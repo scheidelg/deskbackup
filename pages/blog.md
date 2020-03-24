@@ -60,7 +60,7 @@ My intent was that this would automatically render the modification timestamp fo
 
 Unfortunately a bit of testing showed that when I modified one file (e.g., the `blog.md` file), the timestamp rendered on another page (e.g., the 'home' page that loades the `index.md` file) was updated as well.
 
-<i>*le sigh*</i>
+*&#42;le sigh&#42;*
 
 I theorized that when I updated a single file in my GitHub repository, GitHub pushed (or at least 'touched') every file in the repository.  So from the GitHub web server's perspective, every single file is updated every time a single change is committed.
 
