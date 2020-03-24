@@ -2,16 +2,20 @@
 
 This is a collection of exercises and challenges relating to information technology and information security, intended to test and hone the reader's skills.  Generally scenario is presented along with one or more questions or objectives, perhaps along with some hints or information about resources. A solution is then provided, perhaps with a discussion or walk-through.
 
-There's a fine line between an 'exercise' and a 'challenge'. I tend to use 'exercise' (or sometimes 'lab') to refer to a well-defined scenario with a specific set of objectives that should be met to practice or illustrate a specific tool or technology. An exercise will generally be more guided and built around specific steps that can be taken to meet the objectives - but hopefully allowing for a bit of freedom for creativity and alternate approaches ([TMTOWTDI](https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it) \[ref #1\], after all).
+There's a fine line between an 'exercise' and a 'challenge'. I tend to use 'exercise' (or sometimes 'lab') to refer to a well-defined scenario with a specific set of objectives that should be met to practice or illustrate a specific tool or technology. An exercise will generally be more guided and built around specific steps that can be taken to meet the objectives - but hopefully allowing for a bit of freedom for creativity and alternate approaches ([TMTOWTDI](https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it) [\[1\](https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it), after all).
 
 I tend to use 'challenge', on the other hand, to refer to questions or puzzles that are more free-form in how they can be answered or solved; are intended to challenge the reader's technical or critical thinking skills; and are often intended to hone the reader's ability to use specific techniques, tools, or commands.
 
 <hr class="tight">
 ## Homegrown
 
+[http://challenges.scheidel.net]()
+
 I intend to use the wiki site [http://challenges.scheidel.net]() will contain a collection of exercises and challenges that I've created either myself or in collaboration with others. I'll keep adding to this over time - starting with trying to pull together and decipher notes from things I threw together while at work or teaching classes. 
 
 ## Cyber Defense NetWars v1
+
+[http://cdnwv1.scheidel.net]()
 
 Eric Conrad is the primary author of [Cyber Defense NetWars](https://www.sans.org/netwars/cyber-defense) (CDNW). CDNW "is a defense-focused competition aimed at testing your ability to solve problems and secure your systems from compromise \[which tests\] your skills in Administration, Threat Hunting, Log Analysis, Packet Analysis, Cryptography, and much more" \[ref #2\].
 
