@@ -51,5 +51,5 @@ There are a vast number of resources on the Web that provide excellent exercices
  
     [https://www.giac.org/certification/security-expert-gse]()
 
-<hr class="tight"><p class="timestamp">Page updated: 2020.03.24 00:17 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated: 2020.03.24 08:36 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
