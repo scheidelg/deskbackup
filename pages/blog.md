@@ -135,5 +135,5 @@ Here are the tags that I've used as of 2020.03.23.
 | #JavaScript | Notes about writing, using, troubleshooting, etc. with JavaScript. |
 | #MDwiki     | Notes about using and working with MDwiki.  Again, so meta.        |
 
-<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 22:29 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 22:33 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
