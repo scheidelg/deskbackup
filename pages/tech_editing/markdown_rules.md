@@ -15,6 +15,20 @@ In those cases, make sure to format the link so the content opens in a a new tab
 
 Particuarly for any content that might be printed - as opposed to only being read in a web browser - make sure to provide the URL as text.
 
+## References
+
+Related to dispalying URLs for external links... When referencing external content include a superscript citation in the format of:
+
+&nbsp;&nbsp;&nbsp;&nbsp;This is some cited text.<sup>\[1\]</sup>
+
+To achieve this when the citation is not reference a URL:
+
+    <sup>\[1\]<sup>
+    
+To achieve this when the citation is a URL:
+
+    <sup>[&#91;1&#93;](https://www.example.com)</sup>
+
 ## Horizontal Rule Breaks
 
 I generally prefer to see a stronger indicator of a new section than just a slightly larger font and a small amount of leading white space (i.e., top margin).  I'm trying out a few different formatting options; for now:
@@ -42,5 +56,5 @@ See the [blog entry on timestamps](/pages/blog.md#03/23_-_MDwiki_and_File_Timest
 
 Use italics (i.e., soft-emphasis) for titles of web pages and books.
 
-<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 18:16 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.24 08:49 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
