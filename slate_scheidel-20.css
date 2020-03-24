@@ -7791,6 +7791,13 @@ h3 {
 }
 
 /*
+ * Add an underline (i.e., bottom border) to the H2 style
+ */
+h2 {
+    border-bottom-color: #ffffff;
+}
+
+/*
  * Decrease page header top margin.
  */
 .page-header {
