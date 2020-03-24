@@ -16,13 +16,7 @@ Use italics (i.e., soft-emphasis) for titles of web pages and books.
 
 ## Horizontal Rule Breaks
 
-I generally prefer to see a stronger indicator of a new section than just a slightly larger font and a small amount of leading white space (i.e., top margin).  I'm trying out a few different formatting options; for now:
-
- * If there is introductory text immediately after the page header (H1 style), then insert `<hr class="tight">` between that introductory text and the first H2 header.
- 
- * If there isn't any introductory text immediately after the page header, then **don't** insert a horizontal rule before the first H2 header.
- 
- * Consider whether readability is improved by inserting a horizontal rule vs. a larger top margin for the H2 style.
+I generally prefer to see a stronger indicator of a new section than just a slightly larger font and a small amount of leading white space (i.e., top margin).  I'm trying out a few different formatting options; for now consider whether it makes more sense to use `<hr class="tight">` or update relevant CSS styles to have an underline.
 
 ## Page Timestamps
 
@@ -55,5 +49,5 @@ To achieve this when the citation references a URL:
 
     <sup>[&#91;1&#93;](https://www.example.com)</sup>
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.24 08:51 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.24 18:17 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
