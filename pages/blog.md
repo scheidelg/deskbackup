@@ -67,9 +67,9 @@ I theorized that when I updated a single file in my GitHub repository, GitHub pu
 
 I tested this out by firing up WireShark, modifying the `blog.md` file, and using a web browser to retrieve the `index.md` and `config.json` files directly (e.g., `www.scheidel.net/index.md`, `www.scheidel.net/config.json`).  Sure enough, the packet capture showed that the Last-Modified HTTP response headers matched the commit time for the `blog.md` file.
 
-So even if I ran some JavaScript that bypassed MDwiki and directly retrieved a page's backend `*.md` file to get that specific Last-Modified HTTP response header (see ref #1), the Last-Modified value would still always be the timestamp of the last commit for the entire repository.
+So even if I ran some JavaScript that bypassed MDwiki and directly retrieved a page's backend `*.md` file to get that specific Last-Modified HTTP response header \[see ref #1\], the Last-Modified value would still always be the timestamp of the last commit for the entire repository.
 
-I could potentially write some JavaScript code to access the GitHub API and identify the most commit date for each individual file (see ref #2).  But that's more work then I want to spend on this particular problem right now.
+I could potentially write some JavaScript code to access the GitHub API and identify the most commit date for each individual file \[see ref #2\].  But that's more work then I want to spend on this particular problem right now.
   
 So for now I'm going with a footer that has:
 
