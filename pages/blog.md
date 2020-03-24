@@ -117,7 +117,9 @@ Unfortunately this utterly failed when I tested this out by using exactly that s
 
  * Blog entries are listed in reverse-chronological order, top-to-bottom.
  
- * Blog entry title are a few words followed by a date.  For example: 'MDwiki and File Timestamps (03/23)'.
+ * Blog entry titles have a 'mm/dd' date followed by a short title.'03/23 - MDwiki and File Timestamps'.
+ 
+   Avoid using parentheses and brackets in titles (or in headers in general with MDwiki); MDwiki doesn't do so well parsing those characters to create anchor tags.
 
  * Each blog entry footnote includes a list of tags (e.g., '#scripting #bash').  I'll try to be consistent in the tag names and usage.  See  [Blog Tags](/pages/blog.md#Blog_Tags).
 
@@ -135,5 +137,5 @@ Here are the tags that I've used as of 2020.03.23.
 | #JavaScript | Notes about writing, using, troubleshooting, etc. with JavaScript. |
 | #MDwiki     | Notes about using and working with MDwiki.  Again, so meta.        |
 
-<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 22:33 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 22:40 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
