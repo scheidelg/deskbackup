@@ -119,7 +119,7 @@ Unfortunately this utterly failed when I tested this out by using exactly that s
  
  * Blog entry title are a few words followed by a date.  For example: 'MDwiki and File Timestamps (03/23)'.
 
- * Each blog entry footnote includes a list of tags (e.g., '#scripting #bash').  I'll try to be consistent in the tag names and usage.  See  [Blog Tags'](/pages/blog.md#Blog_tags).
+ * Each blog entry footnote includes a list of tags (e.g., '#scripting #bash').  I'll try to be consistent in the tag names and usage.  See  [Blog Tags](/pages/blog.md#Blog_Tags).
 
  * Each blog entry footnote includes a timestamp, for example '2020.03.21 14:10 ET'.  If I make significant updates after the initial post, then I'll (a) summarize the changes at the bottom of the blog entry and (b) append text to the footnote similar to '(Last Edited 2020.03.23 08:57 ET)'.
 
