@@ -11,7 +11,7 @@ I thought it would be nice to include timestamps on each of the pages displayed 
 2020.03.23 13:34 ET
 ```
 
-Then I decided that it would be nice if the timestamp were formatted in italics, slightly smaller text, and under a `<hr>` tag.  So I updated the CSS file to include some formatting specifically for this:
+Then I decided that it would be nice if the timestamp were formatted in italics, slightly smaller text, and under an `<hr>` tag.  So I updated the CSS file to include some formatting specifically for this:
 
 ```CSS
 /*
