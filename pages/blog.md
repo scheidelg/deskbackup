@@ -3,7 +3,7 @@
 See the [Blogging Notes](/pages/blog.md#Blogging_Notes) for information on how the blog and blog entries are structured.
 
 <hr class="tight">
-## MDwiki and File Timestamps (03/23)
+## 03/23 - MDwiki and File Timestamps
 
 I thought it would be nice to include timestamps on each of the pages displayed on this MDwiki.  Initially I just put a static timestamp similar to what I put at the bottom of each one of these 'blog' entries, something like:
 
@@ -102,7 +102,7 @@ References:
 Originally I was hoping to integrate a basic blog-like capability into this website, using MDwiki's 'iframe' gimmick.  The <a href="http://dynalon.github.io/mdwiki/#!blog.md" target="_blank">http://<span></span>dynalon.<span></span>github.<span></span>io/mdwiki/#!blog.md</a> webpage demonstrates this with a `blog.md` file that consists solely of:
 
 ```markdown
-MDwiki Blog
+03/22 - MDwiki Blog
 ====
 
 [gimmick:iframe](http://dynalon.tumblr.com/tagged/MDwiki)
@@ -123,7 +123,7 @@ Unfortunately this utterly failed when I tested this out by using exactly that s
 
  * Each blog entry footnote includes a timestamp, for example '2020.03.21 14:10 ET'.  If I make significant updates after the initial post, then I'll (a) summarize the changes at the bottom of the blog entry and (b) append text to the footnote similar to '(Last Edited 2020.03.23 08:57 ET)'.
 
- * See the [blog entry on 'MDwiki and Blogging'](/pages/blog.md#MDwiki_and_Blogging_(03/22\)) for details on why I'm not using a fancy blogging interface.
+ * See the [blog entry on 'MDwiki and Blogging'](/pages/blog.md#MDwiki_and_Blogging) for details on why I'm not using a fancy blogging interface.
 
 ## Blog Tags
 
