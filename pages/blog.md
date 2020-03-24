@@ -77,7 +77,7 @@ So for now I'm going with a footer that has:
  * a manually edited timestamp for the 'page last updated' timestamp.
 
 ```HTML
-<hr class="tight"><p class="timestamp">Page updated: 2020.03.23 14:10 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.23 14:10 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
 ```
 
