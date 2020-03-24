@@ -9,7 +9,7 @@ I tend to use 'challenge', on the other hand, to refer to questions or puzzles t
 <hr class="tight">
 ## Homegrown
 
-My intent is that the wiki site [http://challenges.scheidel.net]() will contain a collection of exercises and challenges that I've created either myself or in collaboration with others. I'll keep adding to this over time - starting with trying to pull together and decipher handwritten from things I threw together on the fly while at work or teaching classes. 
+I intend to use the wiki site [http://challenges.scheidel.net]() will contain a collection of exercises and challenges that I've created either myself or in collaboration with others. I'll keep adding to this over time - starting with trying to pull together and decipher notes from things I threw together while at work or teaching classes. 
 
 ## Cyber Defense NetWars v1
 
