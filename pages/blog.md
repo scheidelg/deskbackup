@@ -98,7 +98,7 @@ References:
  
  2. </a>*Get when the file was last updated from a Github repository*
  
- [https://stackoverflow.com/questions/50194241/get-when-the-file-was-last-updated-from-a-github-repository]
+ [https://stackoverflow.com/questions/50194241/get-when-the-file-was-last-updated-from-a-github-repository]()
 
 *#MDwiki #blog #JavaScript | 2020.03.23 14:10 ET*
 
