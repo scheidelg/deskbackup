@@ -123,7 +123,7 @@ Unfortunately this utterly failed when I tested this out by using exactly that s
 
  * Each blog entry footnote includes a timestamp, for example '2020.03.21 14:10 ET'.  If I make significant updates after the initial post, then I'll (a) summarize the changes at the bottom of the blog entry and (b) append text to the footnote similar to '(Last Edited 2020.03.23 08:57 ET)'.
 
- * See the [blog entry on 'MDwiki and Blogging'](/pages/blog.md#MDwiki_and_Blogging_(03/22)) for details on why I'm not using a fancy blogging interface.
+ * See the [blog entry on 'MDwiki and Blogging'](/pages/blog.md#MDwiki_and_Blogging_(03/22\)) for details on why I'm not using a fancy blogging interface.
 
 ## Blog Tags
 
