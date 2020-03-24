@@ -2,7 +2,6 @@
 
 This is a collection of markdown notes, tips, and references (primarily for me to use on this web site with MDwiki).
 
-<hr class="tight">
 ## Quick Reference
 
 A quick reference for things I've used (or started to use) frequently.
