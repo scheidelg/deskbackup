@@ -1,6 +1,6 @@
 # Exercises and Challenges
 
-This is a collection of information technology and information security exercises and challenges created to test and hone the reader's skills.  Generally a question or scenario is presented, perhaps along with some information about resources that might be used or hints.  A solution is then provided, perhaps with a discussion or walk-through.  Sometimes a series of questions are presented around a single scenario, generally building in complexity and difficulty.
+This is a collection of exercises and challenges relating to information technology and information security, intended to test and hone the reader's skills.  Generally a question or scenario is presented, perhaps along with some information about resources that might be used or hints.  A solution is then provided, perhaps with a discussion or walk-through.  Sometimes a series of questions are presented around a single scenario, generally building in complexity and difficulty.
 
 There's a fine line between an 'exercise' and a 'challenge'.  I tend to use 'exercise' (or sometimes 'lab') to refer to a well-defined scenario with a specific set of objectives that should be met to practice or illustrate a specific tool or technology.  Generally the exercise will be built around the idea that the reader will take specific steps to meet the objectives - but hopefully allowing for a bit of freedom for creativity and alternate approaches ([TMTOWTDI](https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it), after all).
 
