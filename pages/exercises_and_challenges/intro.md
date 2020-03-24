@@ -6,6 +6,7 @@ There's a fine line between an 'exercise' and a 'challenge'. I tend to use 'exer
 
 I tend to use 'challenge', on the other hand, to refer to questions or puzzles that are more free-form in how they can be answered or solved; are intended to challenge the reader's technical or critical thinking skills; and are often intended to hone the reader's ability to use specific techniques, tools, or commands.
 
+<hr class="tight">
 ## Homegrown
 
 My intent is that the wiki site [http://challenges.scheidel.net]() will contain a collection of exercises and challenges that I've created either myself or in collaboration with others. I'll keep adding to this over time - starting with trying to pull together and decipher handwritten from things I threw together on the fly while at work or teaching classes. 
