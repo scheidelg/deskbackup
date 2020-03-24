@@ -21,11 +21,11 @@ Related to dispalying URLs for external links... When referencing external conte
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is some cited text.<sup>\[1\]</sup>
 
-To achieve this when the citation is not reference a URL:
+To achieve this when the citation does not reference a URL:
 
     <sup>\[1\]<sup>
     
-To achieve this when the citation is a URL:
+To achieve this when the citation references a URL:
 
     <sup>[&#91;1&#93;](https://www.example.com)</sup>
 
