@@ -7794,11 +7794,11 @@ h3 {
  * Add an underline (i.e., bottom border) to the H2 style
  */
 h2 {
-    border-bottom-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 
 /*
- * Decrease page header top margin.
+ * Decrease page header top margin; set the bottom border color.
  */
 .page-header {
     margin-top: 20px;
