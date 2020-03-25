@@ -67,8 +67,11 @@ An example web page can be found at https://www.example.com.
 
 Results in the following HTML:
 
-[Click here](https://www.example.com) to activate the web page.
-An example web page can be found at https://www.example.com.
+```html
+<a href="https://www.example.com">Click here</a> to activate the web page.
+<br>
+An example web page can be found at <a href="https://www.example.com">https://www.example.com</a>.
+```
 
 These automatically created anchor tags don't include a `target="_blank"` attribute/value pair, which means that the referenced content is rendered in the current web browser window or tab when the user clicks on the link.
 
@@ -108,5 +111,5 @@ Other markdown references:
    
    [http://dynalon.github.io/mdwiki/#!layout.md]()
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.25 08:15 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.25 08:29 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
