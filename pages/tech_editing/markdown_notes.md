@@ -31,13 +31,13 @@ Or (b) opening and closing the code block with three backticks:
 
 With the 'three backticks' method you can get syntax highlighting.  For example:
 
-    ```HTML
+    ```html
     Click <a href="http://www.example.com" target="_blank">here</a> to activate the web page.
     ```
 
 Renders as:
 
-```HTML
+```html
 Click <a href="http://www.example.com" target="_blank">here</a> to activate the web page.
 ```
 
@@ -47,7 +47,7 @@ See [http://dynalon.github.io/mdwiki/#!quickstart.md#Syntax_highlighting]() for 
 
 Markdown doesn't appear to have a built-in feature to right, center, or fully justify content.  That's OK, just use the appropriate HTML tag with the 'align' attribute or the CSS style syntax.
 
-```HTML
+```html
 <p align="right">text</p>
 <p align="center">text</p>
 <p align="justify">text</p>
@@ -58,18 +58,30 @@ Markdown doesn't appear to have a built-in feature to right, center, or fully ju
 
 ## Activating Links in New Windows
 
-Markdown creates an `<a>` anchor tag for any URLs found in source files.  This happens both when explicitly using markdown syntax to identify a URL, and when markdown identifies what it believes is a URL (e.g., `www.example.com`).  The created anchor tags don't include a `target="_blank"` attribute/value pair, which means that the referenced content is rendered in the current web browser window or tab when the user clicks on the link.
+Markdown creates an anchor tag (`<a>`) for any URLs found in source files.  This happens both when explicitly using markdown syntax to identify a URL, and when markdown identifies what it believes is a URL. The following markdown:
+
+```markdown
+[Click here](https://www.example.com) to activate the web page.
+An example web page can be found at https://www.example.com.
+```
+
+Results in the following HTML:
+
+[Click here](https://www.example.com) to activate the web page.
+An example web page can be found at https://www.example.com.
+
+These automatically created anchor tags don't include a `target="_blank"` attribute/value pair, which means that the referenced content is rendered in the current web browser window or tab when the user clicks on the link.
 
 If we want the URL content to automatically render in a new window or tab, then we have to create our own anchor tag with a `target="_blank"` attribute/value pair. For example, if we wanted to hyperlink the word 'here' to `www.example.com`:
 
-```HTML
-Click <a href="http://www.example.com" target="_blank">here</a> to activate the web page.
+```html
+Click <a href="https://www.example.com" target="_blank">here</a> to activate the web page.
 ```
 
 However, if we want to use the actual URL as the displayed text then we need to prevent markdown from interpreting that displayed text as a URL.  An easy way to do this is to add the HTML code `<span></span>` after the URI specifier and after every period in the FQDN.  For example:
 
 ```HTML
-Click <a href="http://www.example.com" target="_blank">http://<span></span>www.<span></span>example.<span></span>com</a> to activate the web page.
+Click <a href="https://www.example.com" target="_blank">http://<span></span>www.<span></span>example.<span></span>com</a> to activate the web page.
 ```
 
 ## Other References
