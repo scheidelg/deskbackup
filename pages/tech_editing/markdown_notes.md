@@ -15,14 +15,14 @@ A quick reference for things I've used (or started to use) frequently.
 
 ## Code Blocks
 
-Display a block of text as code either by indenting each line of raw text with four space:
+Display a block of text as code by either (a) indenting each line of raw text with four spaces:
 
 ```
     code line 1
     code line 2
 ```
 
-Or by starting with three backticks:
+Or (b) opening and closing the code block with three backticks:
 
     ```
     code line 1
@@ -41,7 +41,7 @@ Renders as:
 Click <a href="http://www.example.com" target="_blank">here</a> to activate the web page.
 ```
 
-See [http://dynalon.github.io/mdwiki/#!quickstart.md#Syntax_highlighting]() for additioanl detail.
+See [http://dynalon.github.io/mdwiki/#!quickstart.md#Syntax_highlighting]() for additional detail.
 
 ## Right, Center, or Full Justification 
 
