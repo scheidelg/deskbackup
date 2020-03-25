@@ -4,12 +4,6 @@ This is a collection of rules for me to follow when using markdown (primarily on
 
 OK, maybe they're more like guidelines. There are always edge cases where it doesn't make sense to apply the rules. ;)
 
-## Open External Content in New Windows or Tabs
-
-It bugs me when I'm a web page with "step-by-step" instructions includes a link to external content, and clicking on the link renders that external content in the same tab -- meaning that the instructions are now replaced with the new content.
-
-In those cases, make sure to format the link so the content opens in a a new tab and/or window.  See [Activating Links in New Windows]( /pages/tech_editing/markdown_notes.md#Activating_Links_in_New_Windows).
-
 ## Titles of Web Pages and Books
 
 Use italics (i.e., soft-emphasis) for titles of web pages and books.
@@ -35,9 +29,15 @@ See the [blog entry on timestamps](/pages/blog.md#03/23_-_MDwiki_and_File_Timest
 
 Particuarly for any content that might be printed - as opposed to only being read in a web browser - make sure to provide the URL as text.
 
+## Open External Content in New Windows or Tabs
+
+It bugs me when I'm a web page with "step-by-step" instructions includes a link to external content, and clicking on the link renders that external content in the same tab -- meaning that the instructions are now replaced with the new content.
+
+In those cases, make sure to format the link so the content opens in a a new tab and/or window.  See [Activating Links in New Windows]( /pages/tech_editing/markdown_notes.md#Activating_Links_in_New_Windows).
+
 ## Citing References
 
-Related to dispalying URLs for external links... When referencing external content include a superscript citation in the format of:
+When referencing external content include a superscript citation in the format of:
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is some cited text.<sup>\[1\]</sup>
 
