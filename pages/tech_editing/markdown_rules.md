@@ -16,7 +16,7 @@ Use italics (i.e., soft-emphasis) for titles of web pages and books.
 
 ## Horizontal Rule Breaks
 
-I generally prefer to see a stronger indicator of a new section than just a slightly larger font and a small amount of leading white space (i.e., top margin).  I'm trying out a few different formatting options; for now consider whether it makes more sense to use `<hr class="tight">` or update relevant CSS styles to have an underline.
+I generally prefer a stronger indicator of a new section than just a slightly larger font and a small amount of leading white space (i.e., top margin).  I'm trying out a few different formatting options; for now consider whether it makes more sense to use `<hr class="tight">` or update relevant CSS styles to have an underline.
 
 ## Page Timestamps
 
