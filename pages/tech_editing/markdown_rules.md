@@ -41,13 +41,13 @@ Related to dispalying URLs for external links... When referencing external conte
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is some cited text.<sup>\[1\]</sup>
 
-To achieve this when the citation does not reference a URL:
+To achieve this when the citation itself is intended to be plain text:
 
     <sup>\[1\]<sup>
     
-To achieve this when the citation references a URL:
+To achieve this when the citation itself is intended to be a link to a URL:
 
     <sup>[&#91;1&#93;](https://www.example.com)</sup>
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.24 18:17 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.24 18:42 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
