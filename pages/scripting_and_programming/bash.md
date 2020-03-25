@@ -1,6 +1,6 @@
 # Bash Scripting
 
-## [hexdiff.sh](/pages/scripting_and_programming/hexdiff.md)
+## hexdiff.sh
 
 [hexdiff.sh ref](/pages/scripting_and_programming/hexdiff.md)
 
