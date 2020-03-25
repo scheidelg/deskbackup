@@ -30,15 +30,13 @@ Markdown doesn't appear to have a built-in feature to right, center, or fully ju
 
 Markdown creates an `<a>` anchor tag for any URLs found in source files.  This happens both when explicitly using markdown syntax to identify a URL, and when markdown identifies what it believes is a URL (e.g., `www.example.com`).  The created anchor tags don't include a `target="_blank"` attribute/value pair, which means that the referenced content is rendered in the current web browser window or tab when the user clicks on the link.
 
-If we want the URL content to automatically render in a new window or tab, we have to create our own anchor tag; and we have to prevent markdown from interpreting the URL and automatically creating an anchor tag.
-
-Creating our own anchor tag is simple.  For example, if we wanted to hyperlink the word 'here' to `www.example.com`:
+If we want the URL content to automatically render in a new window or tab, then we have to create our own anchor tag with a `target="_blank"` attribute/value pair. For example, if we wanted to hyperlink the word 'here' to `www.example.com`:
 
 ```HTML
 Click <a href="http://www.example.com" target="_blank">here</a> to activate the web page.
 ```
 
-There's an extra step, however, if we want to use the actual URL as the displayed text; we need to to prevent markdown from interpreting the displayed text as a URL.  An easy way to do this is to add the HTML code `<span></span>` after the URI specifier and after every period in the FQDN.  For example:
+However, if we want to use the actual URL as the displayed text then we need to prevent markdown from interpreting that displayed text as a URL.  An easy way to do this is to add the HTML code `<span></span>` after the URI specifier and after every period in the FQDN.  For example:
 
 ```HTML
 Click <a href="http://www.example.com" target="_blank">http://<span></span>www.<span></span>example.<span></span>com</a> to activate the web page.
@@ -68,5 +66,5 @@ Other markdown references:
    
    [http://dynalon.github.io/mdwiki/#!layout.md]()
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.23 16:17 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.25 08:00 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
