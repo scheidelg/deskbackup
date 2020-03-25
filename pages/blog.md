@@ -110,7 +110,6 @@ Unfortunately this utterly failed when I tested this out by using exactly that s
 
 *#MDwiki #blog | 2020.03.22 01:03 ET*
 
-<hr class="tight">
 ## Blogging Notes
 
  * Blog entries are listed in reverse-chronological order, top-to-bottom.
