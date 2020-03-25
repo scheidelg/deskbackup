@@ -13,7 +13,37 @@ A quick reference for things I've used (or started to use) frequently.
 | Italics and bold emphasis                   | `**_text_**` | **_text_** |
 | Code inline with text; use single backticks | `` `text` `` | `text`     |
 
-### Right, Center, or Full Justification 
+## Code Blocks
+
+Display a block of text as code either by indenting each line of raw text with four space:
+
+```
+    code line 1
+    code line 2
+```
+
+Or by starting with three backticks:
+
+    ```
+    code line 1
+    code line 2
+    ```
+
+With the 'three backticks' method you can get syntax highlighting.  For example:
+
+    ```HTML
+    Click <a href="http://www.example.com" target="_blank">here</a> to activate the web page.
+    ```
+
+Renders as:
+
+```HTML
+Click <a href="http://www.example.com" target="_blank">here</a> to activate the web page.
+```
+
+See [http://dynalon.github.io/mdwiki/#!quickstart.md#Syntax_highlighting]() for additioanl detail.
+
+## Right, Center, or Full Justification 
 
 Markdown doesn't appear to have a built-in feature to right, center, or fully justify content.  That's OK, just use the appropriate HTML tag with the 'align' attribute or the CSS style syntax.
 
@@ -26,7 +56,7 @@ Markdown doesn't appear to have a built-in feature to right, center, or fully ju
 <p style="text-align:justify">text</p>
 ```
 
-### Activating Links in New Windows
+## Activating Links in New Windows
 
 Markdown creates an `<a>` anchor tag for any URLs found in source files.  This happens both when explicitly using markdown syntax to identify a URL, and when markdown identifies what it believes is a URL (e.g., `www.example.com`).  The created anchor tags don't include a `target="_blank"` attribute/value pair, which means that the referenced content is rendered in the current web browser window or tab when the user clicks on the link.
 
@@ -66,5 +96,5 @@ Other markdown references:
    
    [http://dynalon.github.io/mdwiki/#!layout.md]()
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.25 08:00 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.25 08:15 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
