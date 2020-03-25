@@ -2,9 +2,9 @@
 
 ## hexdiff.sh
 
-[hexdiff.sh ref](/pages/scripting_and_programming/hexdiff.md)
+Compare two files (binary or text) and extract differences using a bit-by-bit (-c=b), nibble-by-nibble (-c=n), or byte-by-byte (-c=B) comparison. The differences are identified by comparing the hexdump of each file. This is potentially useful to inspect files for content hidden using steganographic techniques.
 
-Compare two files (binary or text) and extract differences using a bit-by-bit (-c=b), nibble-by-nibble (-c=n), or byte-by-byte (-c=B) comparison. The differences are identified by comparing the hexdump of each file.
+[hexdiff.sh ref](/pages/scripting_and_programming/hexdiff.md)
 
 ## next item
 
