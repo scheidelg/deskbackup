@@ -1134,9 +1134,9 @@ EOF
 # _byte
 #-----------------------------------------------------------------------------
 display_diff () {
-    # if we're converting to binary (which means that we're
-    # performing a nibble-by-nibble or byte-by-byte comparison)
-    # then... well, convert to binary.
+    # If we're converting hexadecimal to binary (which means that we're
+    # performing a nibble-by-nibble or byte-by-byte comparison) then... well,
+    # convert to binary.
     if [ $_binary -eq 1 ]; then
 
         # convert a byte (i.e., two hex characters)
@@ -1151,7 +1151,12 @@ display_diff () {
             echo -n 0$1 | xxd -r -p | xxd -b -g 0 | cut -d ' ' -f 2 | cut -c 5-8 | tr -d '\n'
         fi
 
-    # if we're not converting to binary, then just display the string as-is
+#-----------------------------------------------------------------------------
+    # If we're not converting hexadecimal to binary (which means that we're
+    # either (a) performing a nibble-by-nibble or byte-by-byte comparison, but
+    # are displaying the output in hexadecimal; or (b) we're performing a
+    # bit-by-bit comparison, and so the output is already in binary), then
+    # just display the string as-is.
     else
         echo -n $1
     fi
