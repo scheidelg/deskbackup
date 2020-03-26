@@ -60,6 +60,6 @@
 
 [Webcasts &amp; Talks](pages/webcasts_and_talks.md)
 
-[Random](https://www.example.com)
+[Random](pages/random.md)
 
 [About Me](pages/about_me.md)
