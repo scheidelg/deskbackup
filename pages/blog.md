@@ -2,6 +2,15 @@
 
 See [Blogging Notes](/pages/blog.md#Blogging_Notes) for information on how the blog and blog entries are structured.
 
+## 03/26 - hexdiff.sh
+
+
+I added a page for `hexdiff.sh`, a script to compare two files (binary or text) and extract differences using a bit-by-bit (-c=b), nibble-by-nibble (-c=n), or byte-by-byte (-c=B) comparison. The differences are identified by comparing the hexdump of each file.
+
+This is potentially useful to inspect files for content that's been hidden using steganography.
+
+Click [here](scripting_and_programming/hexdiff.md) for details.
+
 ## 03/23 - MDwiki and File Timestamps
 
 I thought it would be nice to include timestamps on each of the pages displayed on this MDwiki.  Initially I just put a static timestamp similar to what I put at the bottom of each one of these 'blog' entries, something like:
