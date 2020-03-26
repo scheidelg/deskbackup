@@ -9,7 +9,7 @@ I added a page for `hexdiff.sh`, a script to compare two files (binary or text) 
 
 This is potentially useful to inspect files for content that's been hidden using steganography.
 
-Click [here](scripting_and_programming/hexdiff.md) for details.
+Click [here](/pages/scripting_and_programming/hexdiff.md) for details.
 
 ## 03/23 - MDwiki and File Timestamps
 
