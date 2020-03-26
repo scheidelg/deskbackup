@@ -2,7 +2,7 @@
 
 During the beta test for [Cyber Defense NetWars](https://www.sans.org/netwars/cyber-defense) (CDNW) v2, [Ryan Nicholson](https://www.sans.org/instructors/ryan-nicholson) and I were exchanging messages about a possible question to use in the game.  The question related to the use of steganography to hide messages in a binary file. Ryan commented that he thought the question might be harder to solve - and so worth more points - because there isn't a readily available tool to "carve" the message out of the binary file. In other words, he wasn't aware of a tool that would quickly look for the mangled bits and bytes in files and extract them for further analysis.
 
-This bugged me because the solve itself was fairly straightforward - just slightly tedious because of that 'missing' tool.  So I wrote a quick bash script (yes, I know... someday I'll default to Python and Powershell instead of bash, Perl, and CMD) to compare two files (binary or text) and extract the bits that are different in one file or the other.
+This bugged me because the solution itself was fairly straightforward - just slightly tedious because of that 'missing' tool.  So I wrote a quick bash script (yes, I know... someday I'll default to Python and Powershell instead of bash, Perl, and CMD) to compare two files (binary or text) and extract the bits that are different in one file or the other.
 
 The core code for the actual comparison and extraction is ~30 lines long; the total code with command-line argument checking etc. is ~120 lines long; and the overall script with comments and help content is about ~1500 lines (because that's how I roll).
 
