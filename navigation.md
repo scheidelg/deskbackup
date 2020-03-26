@@ -62,8 +62,4 @@
 
 [Random](pages/random.md)
 
-[test]()
-
- * [gimmick:ThemeChooser](Change theme)
-
 [About Me](pages/about_me.md)
