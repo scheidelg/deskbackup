@@ -25,6 +25,20 @@ Currently I'm using the following for timestamps:
 
 See the [blog entry on timestamps](/pages/blog.md#03/23_-_MDwiki_and_File_Timestamps).
 
+## Relative vs. Absolute URLs
+
+Conventional wisdom and 'best practice' is to always use relative URLs within a website. For example, if the absolute path to this file is `/pages/tech_editing/markdown_rules.md` and we wanted to reference a file in `/pages/tech_editing/markdown_notes.md`, then we'd just reference `markdown_notes.md`. Both files are in the same directory so there's no need to include the full path.
+
+Likewise, there's no need to preface the URL with the URI specifier and FQDN of `http://www.scheidel.net`.
+
+I agree with not including the URI specifier and FQDN.  I'm not quite onboard with using the relative URL within the website; in many cases maintaining URLs when a directory or file location changes is more of a chore with relative URLs because it's harder to find all of the URLs that need to be updated and to figure out exactly how to update them. With full URLs I can easily search for and find URLs that need to be updated.
+
+So:
+
+ - For URLs that specify anchors within the same page, use the relative URL by just specifying the anchor. For example: `[Citing References](#Citing_References)`
+ 
+ - For URLs that reference other pages on this site, use the full URL but without the URI specifier and FQDN. For example: `See the [blog entry on timestamps](/pages/blog.md#03/23_-_MDwiki_and_File_Timestamps).`
+
 ## Displaying URLs for External Links
 
 Particuarly for any content that might be printed - as opposed to only being read in a web browser - make sure to provide the URL as text.
@@ -49,5 +63,5 @@ To achieve this when the citation itself is intended to be a link to a URL:
 
     <sup>[&#91;1&#93;](https://www.example.com)</sup>
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.24 18:42 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 09:33 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
