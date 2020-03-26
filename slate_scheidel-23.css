@@ -7819,3 +7819,16 @@ h2 {
  *     border-top:1px solid #ffffff;
  * }
  */
+
+/*
+ * Change inline 'code' to use:
+ *
+ *  - black/grey font instead of red
+ *  - 1px vertical padding instead of 2px
+ *  - 2px rounded corners instead of 4 px
+ */
+code {
+    padding: 1px 4px;
+    color: #3a3f44;
+    border-radius: 2px;
+}
