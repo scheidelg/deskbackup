@@ -2,6 +2,8 @@
 
 See [Blogging Notes](#Blogging_Notes) for information on how the blog and blog entries are structured.
 
+*#bash #scripting | 2020.03.26 00:12 ET*
+
 ## 03/26 - hexdiff.sh
 
 
@@ -135,13 +137,15 @@ Unfortunately this utterly failed when I tested this out by using exactly that s
 
 ## Blog Tags
 
-Here are the tags that I've used as of 2020.03.23.
+Here are the tags that I've used as of 2020.03.26.
 
 | Tag         | Description                                                        |
 | ----------- | ------------------------------------------------------------------ |
+| #bash       | Bash tips, tricks, and scripting.                                  |
 | #blog       | Blog entries about blogging. So very meta.                         |
 | #JavaScript | Notes about writing, using, troubleshooting, etc. with JavaScript. |
 | #MDwiki     | Notes about using and working with MDwiki.  Again, so meta.        |
+| #scripting  | Scripting tips, tricks, and examples. Scripts I've created.        |
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 09:12 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 09:52 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
