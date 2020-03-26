@@ -57,8 +57,8 @@ DESCRIPTION
     comparison.  The differences are identified by comparing the hexdump of
     each file.  Defaults to byte-by-byte comparison.
 
-    This is potentially useful to inspect files for content hidden using
-    steganographic techniques. 
+    This can be useful to inspect files for content that's been hidden using
+    steganography.
 
     Output only includes the bits, nibbles, or bytes that are different
     between the two files.  See the '-c' option for details.
