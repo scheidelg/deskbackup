@@ -1,6 +1,6 @@
 # Greg's Desk
 
-This web site is a semi-organized collection of information that I find interesting or useful; relating to things I've researched, worked on, or developed, or about which I (think) I have someting useful to say. Topics trend toward information technology, information security, programming and scripting, technical writing, information technology service management, and program management.
+This web site is a semi-organized collection of information relating to things I've researched, worked on, or developed; or about which I (think) I have someting useful to say, or just find interesting. Topics trend toward information technology, information security, programming and scripting, technical writing, information technology service management, and program management.
 
 No warranty is expressed or implied; use at your own risk; YMMV.
 
