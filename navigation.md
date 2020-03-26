@@ -50,6 +50,8 @@
   * [Markdown Rules](pages/tech_editing/markdown_rules.md)
   - - - -
   * [Excel](pages/tech_editing/excel.md)
+     - [test](pages/tech_editing/excel.md)
+     - [test2](pages/tech_editing/excel.md)
   * [Google Sheets](pages/tech_editing/google_sheets.md)
   * [Google Docs](pages/tech_editing/google_docs.md)
   * [PowerPoint](pages/tech_editing/power_point.md)
