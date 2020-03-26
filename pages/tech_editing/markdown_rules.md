@@ -33,7 +33,7 @@ Particuarly for any content that might be printed - as opposed to only being rea
 
 It bugs me when I'm a web page with "step-by-step" instructions includes a link to external content, and clicking on the link renders that external content in the same tab -- meaning that the instructions are now replaced with the new content.
 
-In those cases, make sure to format the link so the content opens in a a new tab and/or window.  See [Activating Links in New Windows]( /pages/tech_editing/markdown_notes.md#Activating_Links_in_New_Windows).
+In those cases, make sure to format the link so the content opens in a a new tab and/or window.  See the Markdown Notes on [Activating Links in New Windows](/pages/tech_editing/markdown_notes.md#Activating_Links_in_New_Windows).
 
 ## Citing References
 
