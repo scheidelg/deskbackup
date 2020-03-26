@@ -1,6 +1,8 @@
-# Home Page
+# Greg's Desk
 
-This is the home page.
+This web site is a semi-organized collection of information that I find interesting or useful; relating to things I've researched, worked on, or developed, or about which I (think) I have someting useful to say. Topics trend toward information technology, information security, programming and scripting, technical writing, information technology service management, and program management.
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.23 14:48 ET -- Site updated: <span id="timestamp"></span></p>
+No warranty is expressed or implied; use at your own risk; YMMV.
+
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 12:36 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
