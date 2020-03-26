@@ -1290,7 +1290,6 @@ _xxd_args=
 # the arguments one to the left (so that at the end $1 and $2 should refer to
 # the files to compare).
 while [ "${1:0:1}" == "-" ]; do
-echo -n .
     case "$1" in
 
         # output in binary format (for nibble and byte comparisons)
