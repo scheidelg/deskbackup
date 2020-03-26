@@ -54,7 +54,7 @@
   * [Google Docs](pages/tech_editing/google_docs.md)
   * [PowerPoint](pages/tech_editing/power_point.md)
 
-[Exercises &amp; Challenges](pages/exercises_and_challenges.md)
+[Challenges &amp; Exercises](pages/challenges_and_exercises.md)
 
 [Reference Binders](pages/reference_binders.md)
 
