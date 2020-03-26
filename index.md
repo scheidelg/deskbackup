@@ -4,5 +4,5 @@ This web site is a semi-organized collection of information relating to things I
 
 No warranty is expressed or implied; use at your own risk; YMMV.
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 12:36 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 17:52 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
