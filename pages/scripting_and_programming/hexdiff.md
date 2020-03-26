@@ -4,7 +4,7 @@ During the beta test for [Cyber Defense NetWars](https://www.sans.org/netwars/cy
 
 This bugged me because the solution itself was fairly straightforward - just slightly tedious because of that 'missing' tool.  So I wrote a quick bash script (yes, I know... someday I'll default to Python and Powershell instead of bash, Perl, and CMD) to compare two files (binary or text) and extract the bits that are different in one file or the other.
 
-The core code for the actual comparison and extraction is ~30 lines long; the total code with command-line argument checking etc. is ~120 lines long; and the overall script with comments and help content is about ~1500 lines (because that's how I roll).
+The core code for the actual comparison and extraction is ~30 lines long; the total code with command-line argument processing and so forth is ~120 lines long; and the overall script with comments and help content is about ~1500 lines (because that's how I roll).
 
 The script's help content includes:
 
@@ -1120,5 +1120,5 @@ AUTHOR
 <hr class="tight">
 Return to [Bash Scriptiong](http://www.scheidel.net/#!pages/scripting_and_programming/bash.md)
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 00:42 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 18:46 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
