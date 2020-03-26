@@ -38,7 +38,7 @@ The core code for the actual comparison and extraction is ~40 lines long; the to
     
     - Binary file stegonagraphy, where LSBs are modified from an original file.
 
-You can see the actual script [here](http://www.scheidel.net/#!files/hexdiff.sh).
+You can see the actual script ![here](http://www.scheidel.net/#!files/hexdiff.sh).
 
 ## Help Contents
 
