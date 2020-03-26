@@ -40,7 +40,7 @@ The script's help content includes:
     
     - Binary file stegonagraphy, where LSBs are modified from an original file.
 
-Click [here](http://www.scheidel.net/library/hexdiff.sh.txt) to view the entire script.: [http://www.scheidel.net/library/hexdiff.sh.txt]()
+Click [here](https://www.scheidel.net/library/hexdiff.sh.txt) to view the entire script.: [https://www.scheidel.net/library/hexdiff.sh.txt]()
 
 ## Help Contents
 
