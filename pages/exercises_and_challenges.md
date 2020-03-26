@@ -1,6 +1,6 @@
-# Exercises and Challenges
+# Challenges and Exercises
 
-This is a collection of exercises and challenges relating to information technology and information security, intended to test and hone the reader's skills.  Generally scenario is presented along with one or more questions or objectives, perhaps along with some hints or information about resources. A solution is then provided, perhaps with a discussion or walk-through.
+This is a reference list of challenges and exercises relating to information technology and information security, intended to test and hone the reader's skills.  Generally a scenario is presented along with one or more questions or objectives, perhaps along with some hints or information about resources. A solution is then provided, perhaps with a discussion or walk-through.
 
 There's a fine line between an 'exercise' and a 'challenge'. I tend to use 'exercise' (or sometimes 'lab') to refer to a well-defined scenario with a specific set of objectives that should be met to practice or illustrate a specific tool or technology. An exercise will generally be more guided and built around specific steps that can be taken to meet the objectives - but hopefully allowing for a bit of freedom for creativity and alternate approaches (after all, [TMTOWTDI](https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it) <sup>[&#91;1&#93;](https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it)</sup>).
 
@@ -10,7 +10,7 @@ I tend to use 'challenge', on the other hand, to refer to questions or puzzles t
 
 [http://challenges.scheidel.net]()
 
-I intend to use [http://challenges.scheidel.net]() for  a collection of exercises and challenges that I've created either myself or in collaboration with others. I'll keep adding to this over time - starting with trying to pull together and decipher notes from things I threw together while at work or teaching classes. 
+I intend to use [http://challenges.scheidel.net]() for  a collection of challenges and exercises that I've created either myself or in collaboration with others. I'll keep adding to this over time - starting with trying to pull together and decipher notes from things I threw together while at work or teaching classes. 
 
 ## Cyber Defense NetWars v1
 
@@ -54,5 +54,5 @@ There are a vast number of resources on the Web that provide excellent exercices
  
     [https://www.giac.org/certification/security-expert-gse]()
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.43 08:40 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 18:41 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
