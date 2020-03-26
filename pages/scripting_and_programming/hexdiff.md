@@ -4,7 +4,9 @@ During the beta test for [Cyber Defense NetWars](https://www.sans.org/netwars/cy
 
 This bugged me because the solve itself was fairly straightforward - just slightly tedious because of that 'missing' tool.  So I wrote a quick bash script (yes, I know... someday I'll default to Python and Powershell instead of bash, Perl, and CMD) to compare two files (binary or text) and extract the bits that are different in one file or the other.
 
-The core code for the actual comparison and extraction is ~40 lines long; the total code with command-line argument checking etc. is ~120 lines long; and the overall script with comments and help content is about ~1500 lines (because that's how I roll) and includes:
+The core code for the actual comparison and extraction is ~30 lines long; the total code with command-line argument checking etc. is ~120 lines long; and the overall script with comments and help content is about ~1500 lines (because that's how I roll).
+
+The script's help content includes:
 
  - Examples of running the script to extract changed bits, nibbles, or bytes.
  
@@ -22,7 +24,7 @@ The core code for the actual comparison and extraction is ~40 lines long; the to
     
     - Converting hexadecimal output to binary.
  
- - Tips on performing basic analysis on extracted content including:
+ - Tips on performing basic analysis of extracted content including:
  
     - Conversion of the extracted content to ASCII text or binary content.
     
@@ -38,7 +40,7 @@ The core code for the actual comparison and extraction is ~40 lines long; the to
     
     - Binary file stegonagraphy, where LSBs are modified from an original file.
 
-You can [retrieve the script here](http://www.scheidel.net/store/hexdiff.sh.txt): [http://www.scheidel.net/store/hexdiff.sh.txt]()
+Click [here](http://www.scheidel.net/library/hexdiff.sh.txt) to view the entire script.: [http://www.scheidel.net/library/hexdiff.sh.txt]()
 
 ## Help Contents
 
