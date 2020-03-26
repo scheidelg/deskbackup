@@ -2,8 +2,6 @@
 
 See [Blogging Notes](#Blogging_Notes) for information on how the blog and blog entries are structured.
 
-*#bash #scripting | 2020.03.26 00:12 ET*
-
 ## 03/26 - hexdiff.sh
 
 
@@ -12,6 +10,8 @@ I added a page for `hexdiff.sh`, a script to compare two files (binary or text) 
 This is potentially useful to inspect files for content that's been hidden using steganography.
 
 Click [here](/pages/scripting_and_programming/hexdiff.md) for details.
+
+*#bash #scripting | 2020.03.26 00:12 ET*
 
 ## 03/23 - MDwiki and File Timestamps
 
