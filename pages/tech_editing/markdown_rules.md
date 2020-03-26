@@ -31,7 +31,7 @@ Conventional wisdom and 'best practice' is to use relative URLs whenever possibl
 
 Likewise, there's no need to preface the URL with the URI specifier and FQDN of `http://www.scheidel.net`.
 
-I agree with not including the URI specifier and FQDN.  I'm not quite onboard with using the relative URL within the website; in many cases maintaining URLs when a directory or file location changes is more of a chore with relative URLs because it's harder to find all of the URLs that need to be updated and to figure out exactly how to update them. With full URLs I can easily search for and find URLs that need to be updated.
+I agree with not including the URI specifier and FQDN.  I'm not quite onboard with using the relative URL within the website. In many cases maintaining URLs when a directory or file location changes is more of a chore with relative URLs because it's harder to find all of the URLs that need to be updated and to figure out exactly what the new relative URL should be. With full URLs I can easily find URLs that need to be updated, and the new full URL is obvious. And if there are a lot of URLs that need to be updated, I can always script that.
 
 So:
 
@@ -63,5 +63,5 @@ To achieve this when the citation itself is intended to be a link to a URL:
 
     <sup>[&#91;1&#93;](https://www.example.com)</sup>
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 09:33 ET -- Site updated: <span id="timestamp"></span></p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 09:37 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
