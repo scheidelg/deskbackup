@@ -54,12 +54,7 @@
   * [Google Docs](pages/tech_editing/google_docs.md)
   * [PowerPoint](pages/tech_editing/power_point.md)
 
-[Exercises &amp; Challenges]()
-
-  * [Intro](pages/exercises_and_challenges/intro.md)
-  - - - -
-  * [Homegrown](pages/exercises_and_challenges/homegrown.md)
-  * [Cyber Defense NetWars v1](pages/exercises_and_challenges/cdnw_v1.md)
+[Exercises &amp; Challenges](pages/exercises_and_challenges.md)
 
 [Reference Binders](pages/reference_binders.md)
 
