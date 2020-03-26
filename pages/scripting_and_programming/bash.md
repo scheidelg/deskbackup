@@ -6,7 +6,7 @@ Compare two files (binary or text) and extract differences using a bit-by-bit (-
 
 This is potentially useful to inspect files for content that's been hidden using steganography.
 
-Click [here](/pages/scripting_and_programming/hexdiff.md) for details.
+Click [here](hexdiff.md) for details.
 
 ## next item
 
