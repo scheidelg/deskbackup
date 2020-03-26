@@ -63,3 +63,5 @@
 [Random](pages/random.md)
 
 [About Me](pages/about_me.md)
+
+[gimmick:ThemeChooser](Change theme)
