@@ -1326,7 +1326,9 @@ echo -n .
             ;;
 
         # display usage and exit
-        -h)
+        #
+        # (yes, the '-?' option is undocumented in the help content)
+        -h | -?)
             display_usage
             exit
             ;;
