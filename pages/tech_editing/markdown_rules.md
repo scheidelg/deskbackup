@@ -27,7 +27,7 @@ See the [blog entry on timestamps](/pages/blog.md#03/23_-_MDwiki_and_File_Timest
 
 ## Relative vs. Absolute URLs
 
-Conventional wisdom and 'best practice' is to always use relative URLs within a website. For example, if the absolute path to this file is `/pages/tech_editing/markdown_rules.md` and we wanted to reference a file in `/pages/tech_editing/markdown_notes.md`, then we'd just reference `markdown_notes.md`. Both files are in the same directory so there's no need to include the full path.
+Conventional wisdom and 'best practice' is to use relative URLs whenever possible. For example, if the absolute path to this file is `/pages/tech_editing/markdown_rules.md` and we wanted to reference a file in `/pages/tech_editing/markdown_notes.md`, then we'd just reference `markdown_notes.md`. Both files are in the same directory so there's no need to include the full path.
 
 Likewise, there's no need to preface the URL with the URI specifier and FQDN of `http://www.scheidel.net`.
 
