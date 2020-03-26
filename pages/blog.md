@@ -1,6 +1,6 @@
 # Blog
 
-See [Blogging Notes](/pages/blog.md#Blogging_Notes) for information on how the blog and blog entries are structured.
+See [Blogging Notes](blog.md#Blogging_Notes) for information on how the blog and blog entries are structured.
 
 ## 03/26 - hexdiff.sh
 
