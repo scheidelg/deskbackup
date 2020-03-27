@@ -23,7 +23,7 @@ Currently I'm using the following for timestamps:
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
 ```
 
-See the [blog entry on timestamps](pages/blog.md#03/23_-_MDwiki_and_File_Timestamps).
+See the [blog entry on timestamps](/pages/blog.md#03/23_-_MDwiki_and_File_Timestamps).
 
 ## Relative vs. Absolute URLs
 
