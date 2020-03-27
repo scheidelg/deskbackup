@@ -14,13 +14,13 @@ I intend to use [https://challenges.scheidel.net]() for  a collection of challen
 
 ## Cyber Defense NetWars v1
 
-[http://cdnwv1.scheidel.net]()
+[https://cdnwv1.scheidel.net]()
 
 [Eric Conrad](https://www.sans.org/instructors/eric-conrad) is the primary author of [Cyber Defense NetWars](https://www.sans.org/netwars/cyber-defense) (CDNW). CDNW "is a defense-focused competition aimed at testing your ability to solve problems and secure your systems from compromise \[which tests\] your skills in Administration, Threat Hunting, Log Analysis, Packet Analysis, Cryptography, and much more" <sup>[&#91;3&#93;](https://www.sans.org/netwars/cyber-defense)</sup>.
 
 Since spring of 2018 the SANS Technology Institute (STI) has been using CDNW as a tool for the STI Masters of Science in Information Security Engineering (MSISE) students <sup>[&#91;5&#93;](https://www.sans.edu/academics/masters-programs/msise)</sup> to prepare for the GIAC Security Expert (GSE) certification <sup>[&#91;6&#93;](https://www.giac.org/certification/security-expert-gse)</sup>. Since the start of that effort, I've been acting as a mentor for the STI MSISE students. This consists of coaching students on how to solve the challenges and answer the questions in the game - via email, phone calls, and twice-weekly web conferences (which is, BTW, is a huge difference from standard NetWars events where one of the harder's parts of the instrutor's job is to bite their tongue and not give help that might give a competitor an unfair advantage).
 
-Partly as a result of that support, I've created hints, tips, and walk-through instructions for every question in the game. I can't publish any of that information while CDNW v1 is actively in use for competitions. **However**... SANS is currently working on Cyber Defense NetWars v2 - an all new set of challenges and questions - and ran a beta in the first week of March 2020. I'm waiting for Eric to officially retire CDNW v1 and grant me permission to publish my notes. As soon as he does, I intend to start posting them on [http://cdnwv1.scheidel.net]().  We'll see...
+Partly as a result of that support, I've created hints, tips, and walk-through instructions for every question in the game. I can't publish any of that information while CDNW v1 is actively in use for competitions. **However**... SANS is currently working on Cyber Defense NetWars v2 - an all new set of challenges and questions - and ran a beta in the first week of March 2020. I'm waiting for Eric to officially retire CDNW v1 and grant me permission to publish my notes. As soon as he does, I intend to start posting them on [https://cdnwv1.scheidel.net]().  We'll see...
 
 ## Additional Resources
 
