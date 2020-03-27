@@ -8,9 +8,9 @@ I tend to use 'challenge', on the other hand, to refer to questions or puzzles t
 
 ## Homegrown
 
-[http://challenges.scheidel.net]()
+[https://challenges.scheidel.net]()
 
-I intend to use [http://challenges.scheidel.net]() for  a collection of challenges and exercises that I've created either myself or in collaboration with others. I'll keep adding to this over time - starting with trying to pull together and decipher notes from things I threw together while at work or teaching classes.
+I intend to use [https://challenges.scheidel.net]() for  a collection of challenges and exercises that I've created either myself or in collaboration with others. I'll keep adding to this over time - starting with trying to pull together and decipher notes from things I threw together while at work or teaching classes.
 
 ## Cyber Defense NetWars v1
 
