@@ -22,9 +22,13 @@ Besides the deep copy functionality itself, this code illustrates:
 
  - checking for circular recursion.
 
-Click [here](https://www.scheidel.net/library/copyObject.js) to view the entire Javascript function, along with some code to demonstrate it's use.
+Click [here](https://www.scheidel.net/library/copyObject.js) to view the Javascript function along with some code to demonstrate it's use. Please note that the full Javascript code includes detailed comments to explain the function's use, arguments, variables, and logic.
 
-Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the entire Javascript function, minified to ~1,100 characters.
+Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the Javascript function minified to ~1,100 characters.
+
+## NEED SOMETHING HERE
+
+NEED SOMETHING HERE - MORE DETAIL!
 
 ## References
 
@@ -36,17 +40,24 @@ Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the en
  
     [https://www.sans.org/instructors/ryan-nicholson]()
 
- 3. [cloneObject() Code](https://www.scheidel.net/library/cloneObject.js)
+ 3. [cloneObject() Code](/library/cloneObject.js)
 
     Source code for the entire Javascript function, along with some code to demonstrate it's use.
 
     [https://www.scheidel.net/library/cloneObject.js]()
 
- 4. [cloneObject() Minified Code](https://www.scheidel.net/library/cloneObject-mini.js)
+ 4. [cloneObject() Minified Code](library/cloneObject-mini.js)
 
-    Source code for the entire Javascript function, minified to ~1,100 characters.
+    Source code for the Javascript function minified to ~1,100 characters.
 
     [https://www.scheidel.net/library/cloneObject-mini.js]()
+
+ 5. [Blog Entry - 04/24 - Shallow Copy vs. Deep Copy, and copyObject](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject)
+
+    A brief overview of shallow copy vs. deep copy.
+
+    [https://www.scheidel.net/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject]()
+
 
 <hr class="tight">
 Return to [Javascript](http://www.scheidel.net/#!pages/scripting_and_programming/javascript.md)
