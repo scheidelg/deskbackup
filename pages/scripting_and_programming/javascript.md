@@ -26,6 +26,8 @@ Besides the deep copy functionality itself, this code illustrates:
 
 Click [here](copyObject.md) for details.
 
+Click [here](https://www.scheidel.net/library/copyObject.js) to view the entire script.: [https://www.scheidel.net/library/copyObject.js]()
+
 ## next item
 
 this is the next item
