@@ -14,6 +14,8 @@ A Javascript function that clones a JavaScript object by performing a deep copy 
 
 Click [here](cloneObject.md) for details.
 
+See this [blog entry](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_cloneObject) for a brief overview of shallow copy vs. deep copy.
+
 ## next item
 
 this is the next item
