@@ -8,5 +8,4 @@
  
 [gimmick:ThemeChooser](Change theme)
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 12:53 ET -- Site updated: <span id="timestamp"></span></p>
-<script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 12:53 ET</p>
