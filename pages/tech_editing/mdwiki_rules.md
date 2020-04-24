@@ -19,8 +19,7 @@ Include a timestamp at the bottom of every `*.md` file  that gets rendered on it
 Currently I'm using the following for timestamps:
 
 ```HTML
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.23 14:48 ET -- Site updated: <span id="timestamp"></span></p>
-<script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.23 14:48 ET</p>
 ```
 
 See the [blog entry on timestamps](/pages/blog.md#03/23_-_MDwiki_and_File_Timestamps).
@@ -63,5 +62,4 @@ To achieve this when the citation itself is intended to be a link to a URL:
 
     <sup>[&#91;1&#93;](https://www.example.com)</sup>
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.27 16:07 ET -- Site updated: <span id="timestamp"></span></p>
-<script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.27 16:07 ET</p>
