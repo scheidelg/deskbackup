@@ -56,7 +56,7 @@ NEED SOMETHING HERE - MORE DETAIL!
 
     A brief overview of shallow copy vs. deep copy.
 
-    [https://www.scheidel.net/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject]()
+    [/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject]()
 
 
 <hr class="tight">
