@@ -4,7 +4,7 @@ This function performs a deep copy of Javascript objects.
 
 See this [blog entry](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject) for a brief overview of shallow copy vs. deep copy.
 
-Click [here](https://www.scheidel.net/library/copyObject.js) to view the Javascript function along with some code to demonstrate it's use. Please note that the full Javascript code includes detailed comments to explain the function's use, arguments, variables, and logic.
+Click [here](https://www.scheidel.net/library/copyObject.js) to view the Javascript function along with some code to demonstrate its use. Please note that the full Javascript code includes detailed comments to explain the function's use, arguments, variables, and logic.
 
 Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the Javascript function minified to ~1,100 characters.
 
@@ -36,7 +36,7 @@ Besides the deep copy functionality itself, this code illustrates:
 
  1. [copyObject() Code](/library/copyObject.js)
 
-    Source code for the entire Javascript function, along with some code to demonstrate it's use. Includes detailed comments to explain the function's use, arguments, variables, and logic.
+    Source code for the entire Javascript function, along with some code to demonstrate its use. Includes detailed comments to explain the function's use, arguments, variables, and logic.
 
  2. [copyObject() Minified Code](/library/copyObject-mini.js)
 
