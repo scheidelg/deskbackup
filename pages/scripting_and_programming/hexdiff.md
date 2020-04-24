@@ -1124,4 +1124,4 @@ AUTHOR
 <hr class="tight">
 Return to [Bash Scripting](http://www.scheidel.net/#!pages/scripting_and_programming/bash.md)
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 18:46 ET</p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.04.24 12:24 ET</p>
