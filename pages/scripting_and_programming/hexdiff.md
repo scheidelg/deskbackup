@@ -1122,6 +1122,6 @@ AUTHOR
     [https://www.scheidel.net/library/hexdiff.sh.txt]()
 
 <hr class="tight">
-Return to [Bash Scripting](http://www.scheidel.net/#!pages/scripting_and_programming/bash.md)
+Return to [Bash Scripting](http://www.scheidel.net/#!pages/scripting_and_programming/bash.md) page.
 
 <hr class="tight"><p class="timestamp">Page updated >= 2020.04.24 12:24 ET</p>
