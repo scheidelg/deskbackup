@@ -454,3 +454,116 @@ function copyObject(sourceObject, targetObject, copyType) {
      * be reclaimed). */
     return(copyObjectRecursion(sourceObject, targetObject, copyType) ? 0 : 2);
  }
+
+/*============================================================================
+The following code illustrates use of the copyObject() function.
+----------------------------------------------------------------------------*/
+
+/* Declare variables. */
+let mySource;
+let myTarget;
+let copyReturned;
+
+/*----------------------------------------------------------------------------
+ * Illustrate a shallow copy. */
+mySource = {"a": 10, "b": {"i": 20, "ii": 30}};
+myTarget = mySource;
+
+/* Now change the values of mySource properties and see that the values of the
+ * myTarget properties change to match. */
+
+mySource.a = 11;            // myTarget.a == 11
+mySource.b.i = 21;          // myTarget.b.i == 21
+mySource.b.ii = 31;         // myTarget.b.ii == 31
+mySource.b = 40;            // myTarget.b == 40
+                            // typeof mySource.b.i == 'undefined'
+                            // typeof myTarget.b.i == 'undefined'
+
+/*----------------------------------------------------------------------------
+ * copyObject test
+ *
+ *  - Copy source object to an empty target object.
+ *
+ * After execution, myTarget should have the same keys and values as
+ * mySource. */
+
+mySource = {"a": 10, "b": {"i": 20, "ii": 30}};
+myTarget = {};
+copyReturned = copyObject(mySource, myTarget);
+
+/* Now change the values of mySource properties and see that the values of the
+ * myTarget properties are unaffected. */
+
+mySource.a = 11;            // myTarget.a == 10 (still)
+mySource.b.i = 21;          // myTarget.b.i == 20 (still)
+mySource.b.ii = 31;         // myTarget.b.ii == 30 (still)
+mySource.b = 40;            // myTarget.b.i == 20 (still)
+                            // myTarget.b.ii == 30 (still)
+
+/*----------------------------------------------------------------------------
+ * copyObject test
+ *
+ *  - Copy source object to a target object with existing  properties
+ *
+ *  - copyType not specified (default 'delete all existing target object
+ *    properties').*/
+
+mySource = {"a": 10, "b": {"i": 20, "ii": 30}, "c": {"iii": 40}, "d": null};
+myTarget = {"b": {"i": 60, "ii": {"1": 70}}, "c": null, "d": {"iv": 50}, "e": 80};
+copyReturned = copyObject(mySource, myTarget);
+
+/* myTarget should now be:
+ *
+ *    {"a": 10, "b": {"i": 20, "ii": 30}, "c": {"iii": 40}, "d": null}
+ */
+
+/*----------------------------------------------------------------------------
+ * copyObject test
+ *
+ *  - Copy source object to a target object with existing properties
+ *
+ *  - copyType 0 (explicit 'delete all existing target object properties'.*/
+
+mySource = {"a": 10, "b": {"i": 20, "ii": 30}, "c": {"iii": 40}, "d": null};
+myTarget = {"b": {"i": 60, "ii": {"1": 70}}, "c": null, "d": {"iv": 50}, "e": 80};
+copyReturned = copyObject(mySource, myTarget);
+
+/* myTarget should now be:
+ *
+ *    {"a": 10, "b": {"i": 20, "ii": 30}, "c": {"iii": 40}, "d": null}
+ */
+
+/*----------------------------------------------------------------------------
+ * copyObject test
+ *
+ *  - Copy source object to a target object with existing properties
+ *
+ *  - copyType 1 (on conflict, source properties take precedence)
+ */
+
+mySource = {"a": 10, "b": {"i": 20, "ii": 30}, "c": {"iii": 40}, "d": null};
+myTarget = {"b": {"i": 60, "ii": {"1": 70}}, "c": null, "d": {"iv": 50}, "e": 80};
+copyReturned = copyObject(mySource, myTarget, 1);
+
+/* myTarget should now be:
+ *
+ *    {"a": 10, "b": {"i": 20, "ii": 30}, "c": {"iii": 40}, "d": null,
+ *     "e": 80}
+ */
+
+/*----------------------------------------------------------------------------
+ * copyObject test
+ *
+ *  - Copy source object to a target object with existing properties
+ *
+ *  - copyType 2 (on conflict, target properties take precedence)
+ */
+
+mySource = {"a": 10, "b": {"i": 20, "ii": 30}, "c": {"iii": 40}, "d": null};
+myTarget = {"b": {"i": 60, "ii": {"1": 70}}, "c": null, "d": {"iv": 50}, "e": 80};
+copyReturned = copyObject(mySource, myTarget, 1);
+
+/* myTarget should now be:
+ *
+ *    {"a": 10, "b": {"i": 60, "ii": {"1": 70}}, "c": null, "d": {"iv": 50}, "e": 80}
+ */
