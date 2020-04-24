@@ -53,6 +53,6 @@ NEED SOMETHING HERE - MORE DETAIL!
     A brief overview of shallow copy vs. deep copy.
 
 <hr class="tight">
-Return to [Javascript](http://www.scheidel.net/#!pages/scripting_and_programming/javascript.md)
+Return to [Javascript](/pages/scripting_and_programming/javascript.md)
 
 <hr class="tight"><p class="timestamp">Page updated >= 2020.04.24 11:32 ET</p>
