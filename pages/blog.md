@@ -2,8 +2,23 @@
 
 See [Blogging Notes](#Blogging_Notes) for information on how the blog and blog entries are structured.
 
-## 03/26 - hexdiff.sh
+## 04/24 - cloneObject()
 
+I added a page for `cloneObject()`, a Javascript function that clones a JavaScript object by performing a deep copy of non-inherited properties.  I needed this functionality as part of functions I was writing to validate and manipulate application configurations, where those configurations are represented in memory as Javascript objects.  Besides the deep copy functionality itself, this code illustrates:
+
+ - iterating through Javascript object properties,
+
+ - manipulating Javascript objects,
+
+ - recursion, and
+
+ - checking for circular recursion.
+
+Click [here](/pages/scripting_and_programming/cloneObject.md) for details.
+
+*#Javascript #scripting | 2020.04.24 11:15 ET*
+
+## 03/26 - hexdiff.sh
 
 I added a page for `hexdiff.sh`, a script to compare two files (binary or text) and extract differences using a bit-by-bit (-c=b), nibble-by-nibble (-c=n), or byte-by-byte (-c=B) comparison. The differences are identified by comparing the hexdump of each file.
 
@@ -151,4 +166,4 @@ Here are the tags that I've used as of 2020.03.26.
 | #MDwiki     | Notes about using and working with MDwiki.  Again, so meta.        |
 | #scripting  | Scripting tips, tricks, and examples. Scripts I've created.        |
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.04.24 09:21 ET</p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.04.24 11:15 ET</p>
