@@ -4,15 +4,15 @@
 
 This is a Javascript function that 'clones' a JavaScript object by performing a deep copy of non-inherited properties:
 
- - For a child property that is an object, create a new object in the target instead of simply copying the source object.
+ - If a source object's property is an object, then create a new object in the target instead of simply copying the source object.
 
-   This means that target object properties will be separate from source object properties, not simply references to the corresponding source object properties.
+   This means that target object properties will be distinct object references, not simply references to the corresponding source object properties.
 
  - Recurse through the source to copy child children, grandchildren, etc. properties to the target.
 
- - If a circular reference (a child object refers to an ancestor object), then the circular reference and any child properties aren't copied but the rest of the object is still copied; and the function return value will be indicate a circular reference was found.
+ - If a circular reference (a child property refers to an ancestor object), then don't copy the circular reference or its children properties. Continue copying the rest of the object; and set a return value indicating a circular reference was found.
 
-Instead of creating a new target object, the source object is copied to an existing target object. This allows existing target object properties to be retained, effectively merging the source object into the target object. An argument to the function controls how existing targetObject properties are handled:
+Instead of creating a new target object, the source object is copied to an existing target object. This allows existing target object properties to be retained, effectively merging the source object into the target object. An argument to the function controls how existing target object properties are handled:
 
  - Deleted
 
