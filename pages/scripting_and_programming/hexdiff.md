@@ -1117,11 +1117,11 @@ AUTHOR
  
     [https://www.sans.org/instructors/ryan-nicholson]()
 
- 3. [hexdiff.sh - Full Script](https://www.scheidel.net/library/hexdiff.sh.txt)
+ 3. [hexdiff.sh - Full Script](/library/hexdiff.sh.txt)
 
     [https://www.scheidel.net/library/hexdiff.sh.txt]()
 
 <hr class="tight">
-Return to [Bash Scripting](http://www.scheidel.net/#!pages/scripting_and_programming/bash.md) page.
+Return to [Bash Scripting](/pages/scripting_and_programming/bash.md) page.
 
 <hr class="tight"><p class="timestamp">Page updated >= 2020.04.24 12:24 ET</p>
