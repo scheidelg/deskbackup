@@ -28,6 +28,8 @@ Click [here](copyObject.md) for more details.
 
 Click [here](https://www.scheidel.net/library/copyObject.js) to view the entire Javascript function, along with some code to demonstrate it's use.
 
+Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the entire Javascript function, minified to ~1,100 characters.
+
 ## next item
 
 this is the next item
