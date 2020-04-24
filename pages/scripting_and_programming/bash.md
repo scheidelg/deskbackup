@@ -14,4 +14,4 @@ Click [here](https://www.scheidel.net/library/hexdiff.sh.txt) to view the entire
 
 this is the next item
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 09:16 ET</p>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.04.24 12:24 ET</p>
