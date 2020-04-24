@@ -28,7 +28,7 @@ targetObject.b.i = 200;
 targetObject.b.ii = 300;
 ```
 
-`sourceObject` and `targetObject` are both now `{"a": 100, "b": {"i": 200, "ii": 300}}`.  However, the primary variables and any properties that are objects are not equivalent; they don't refer to the same memory locations.
+`sourceObject` and `targetObject` are both now `{"a": 100, "b": {"i": 200, "ii": 300}}`.  However, the primary variables and any properties that are objects are not equivalent; they refer to different memory locations.
 
 ```
 sourceObject       == targetObject;        // false - variable value is a memory location
