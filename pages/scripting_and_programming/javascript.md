@@ -4,7 +4,7 @@
 
 A Javascript function that copies a JavaScript object by performing a deep copy of non-inherited properties, including the ability to retain existing properties of the target object.
 
-See this [blog entry](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject) for a brief overview of shallow copy vs. deep copy.
+See [this blog entry](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject) for a brief overview of shallow copy vs. deep copy.
 
 Besides the deep copy functionality itself, this code illustrates:
 
