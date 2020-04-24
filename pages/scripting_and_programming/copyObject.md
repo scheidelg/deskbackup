@@ -34,6 +34,18 @@ Click [here](https://www.scheidel.net/library/copyObject.js) to view the entire 
  
     [https://www.sans.org/instructors/ryan-nicholson]()
 
+ 3. [cloneObject() Code](https://www.scheidel.net/library/cloneObject.js)
+
+    Source code for the entire Javascript function, along with some code to demonstrate it's use.
+
+    [https://www.scheidel.net/library/cloneObject.js]()
+
+ 4. [cloneObject() Minified Code](https://www.scheidel.net/library/cloneObject-mini.js)
+
+    Source code for the entire Javascript function, minified to ~1,100 characters.
+
+    [https://www.scheidel.net/library/cloneObject-mini.js]()
+
 <hr class="tight">
 Return to [Javascript](http://www.scheidel.net/#!pages/scripting_and_programming/javascript.md)
 
