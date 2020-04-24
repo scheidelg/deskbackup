@@ -8,6 +8,8 @@ This is potentially useful to inspect files for content that's been hidden using
 
 Click [here](hexdiff.md) for details.
 
+Click [here](https://www.scheidel.net/library/hexdiff.sh.txt) to view the entire script.: [https://www.scheidel.net/library/hexdiff.sh.txt]()
+
 ## next item
 
 this is the next item
