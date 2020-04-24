@@ -56,8 +56,6 @@ I wrote a copyObject() function to perform a deep copy of non-inherited object p
 
  - Retain existing target object properties even if they conflict with a source object property.
 
-Aside from the basic deep copy, 
- 
 Besides the deep copy functionality itself, this code illustrates:
 
  - iterating through Javascript object properties,
