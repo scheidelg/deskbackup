@@ -40,7 +40,7 @@ The script's help content includes:
     
     - Binary file stegonagraphy, where LSBs are modified from an original file.
 
-Click [here](https://www.scheidel.net/library/hexdiff.sh.txt) to view the entire script.: [https://www.scheidel.net/library/hexdiff.sh.txt]()
+Click [here](https://www.scheidel.net/library/hexdiff.sh.txt) to view the entire script.
 
 ## Help Contents
 
@@ -1116,6 +1116,10 @@ AUTHOR
  2. [Ryan Nicholson](https://www.sans.org/instructors/ryan-nicholson) profile on sans.org
  
     [https://www.sans.org/instructors/ryan-nicholson]()
+
+ 3. [hexdiff.sh - Full Script](https://www.scheidel.net/library/hexdiff.sh.txt)
+
+    [https://www.scheidel.net/library/hexdiff.sh.txt]()
 
 <hr class="tight">
 Return to [Bash Scripting](http://www.scheidel.net/#!pages/scripting_and_programming/bash.md)
