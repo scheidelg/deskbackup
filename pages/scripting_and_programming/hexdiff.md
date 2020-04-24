@@ -1118,6 +1118,6 @@ AUTHOR
     [https://www.sans.org/instructors/ryan-nicholson]()
 
 <hr class="tight">
-Return to [Bash Scriptiong](http://www.scheidel.net/#!pages/scripting_and_programming/bash.md)
+Return to [Bash Scripting](http://www.scheidel.net/#!pages/scripting_and_programming/bash.md)
 
 <hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 18:46 ET</p>
