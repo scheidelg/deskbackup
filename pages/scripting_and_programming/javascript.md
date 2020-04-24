@@ -4,7 +4,7 @@
 
 This is a Javascript function that 'clones' a JavaScript object by performing a deep copy of non-inherited properties:
 
- - If a source object's property is an object, then create a new object in the target instead of simply copying the source object.
+ - If a source object's property is an object, then create a new object property in the target instead of simply copying the source object property.
 
    This means that target object properties will be distinct object references, not simply references to the corresponding source object properties.
 
