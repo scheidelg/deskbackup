@@ -18,6 +18,8 @@ The function has the the ability to retain existing properties of the target obj
 
  - Retain existing target object properties even if they conflict with a source object property.
 
+This means that we're effectively able to merge the source object properties into the existing target object.
+
 ## Concepts and Techniques Illustrated
 
 Besides the deep copy functionality itself, this code illustrates:
