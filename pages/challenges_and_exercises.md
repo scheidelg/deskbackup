@@ -54,5 +54,4 @@ There are a vast number of resources on the Web that provide excellent challenge
  
     [https://www.giac.org/certification/security-expert-gse]()
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 19:45 ET -- Site updated: <span id="timestamp"></span></p>
-<script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 19:45 ET</p>
