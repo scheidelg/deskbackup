@@ -31,11 +31,11 @@ targetObject.b.ii = 300;
 `sourceObject` and `targetObject` are both now `{"a": 100, "b": {"i": 200, "ii": 300}}`.  However, the primary variables and any properties that are objects are not equivalent; they don't refer to the same memory locations.
 
 ```
-sourceObject       == targetObject;        // false
-sourceObject.a     == targetObject.a;      // true
-sourceObject.b     == targetObject.b;      // false
-sourceObject.b.i   == targetObject.b.i;    // true
-sourceObject.bi.ii == targetObject.b.ii;   // true
+sourceObject       == targetObject;        // false - variable value is a memory location
+sourceObject.a     == targetObject.a;      // true  - property value is a number
+sourceObject.b     == targetObject.b;      // false - property value is a memory location
+sourceObject.b.i   == targetObject.b.i;    // true  - property value is a number
+sourceObject.b.ii  == targetObject.b.ii;   // true  - property value is a number
 ```
 
 This means that any changes to the original don't have any impact on the copy.
