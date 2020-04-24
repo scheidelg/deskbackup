@@ -1151,7 +1151,6 @@ display_diff () {
             echo -n 0$1 | xxd -r -p | xxd -b -g 0 | cut -d ' ' -f 2 | cut -c 5-8 | tr -d '\n'
         fi
 
-#-----------------------------------------------------------------------------
     # If we're not converting hexadecimal to binary (which means that we're
     # either (a) performing a nibble-by-nibble or byte-by-byte comparison, but
     # are displaying the output in hexadecimal; or (b) we're performing a
