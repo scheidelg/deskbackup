@@ -79,17 +79,21 @@ I tested this out by firing up WireShark, modifying the `blog.md` file, and usin
 
 So even if I ran some JavaScript that bypassed MDwiki and directly retrieved a page's backend `*.md` file to get that specific Last-Modified HTTP response header \[ref #1\], the Last-Modified value would still always be the timestamp of the last commit for the entire repository.
 
-I could potentially write some JavaScript code to access the GitHub API and identify the most commit date for each individual file \[ref #2\].  But that's more work then I want to spend on this particular problem right now.
-  
-So for now I'm going with a footer that has:
-
- * an automatically updated timestamp from the Last-Modified HTTP response header as the 'site last updated' timestamp, and
- 
- * a manually edited timestamp for the 'page last updated' timestamp.
+On top of that, the MDwiki page is being dynamically generated. So even if I tried to include a 'site last updated' timestamp to reflect the timestamp of the most recent GitHub commit:
 
 ```HTML
 <hr class="tight"><p class="timestamp">Page updated >= 2020.03.23 14:10 ET -- Site updated: <span id="timestamp"></span></p>
 <script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
+```
+
+...then the document.lastModified value would *always* going to be the timestamp of when the page was retrieved instead of the last commit.
+
+I could potentially write some JavaScript code to access the GitHub API and identify the most commit date for each individual file \[ref #2\].  But that's more work then I want to spend on this particular problem right now.
+  
+So for now I'm going with a footer that has a manually edited timestamp for the 'page last updated' timestamp.
+
+```HTML
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.23 14:10 ET</p>
 ```
 
 I'll log this as an 'issue' in my GitHub repository for this site and come back to this later.
@@ -104,7 +108,7 @@ References:
  
  [https://stackoverflow.com/questions/50194241/get-when-the-file-was-last-updated-from-a-github-repository]()
 
-*#MDwiki #blog #JavaScript | 2020.03.23 14:10 ET*
+*#MDwiki #blog #JavaScript | 2020.03.23 14:10 ET (Last Edited 2020.04.24 09:20 ET)*
 
 ## 03/22 - MDwiki and Blogging
 
@@ -147,5 +151,4 @@ Here are the tags that I've used as of 2020.03.26.
 | #MDwiki     | Notes about using and working with MDwiki.  Again, so meta.        |
 | #scripting  | Scripting tips, tricks, and examples. Scripts I've created.        |
 
-<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 09:52 ET -- Site updated: <span id="timestamp"></span></p>
-<script type='text/javascript'>document.getElementById("timestamp").innerHTML = Date(document.lastModified);</script>
+<hr class="tight"><p class="timestamp">Page updated >= 2020.03.26 09:52 ET</p>
