@@ -2,9 +2,55 @@
 
 See [Blogging Notes](#Blogging_Notes) for information on how the blog and blog entries are structured.
 
-## 04/24 - cloneObject()
+## 04/24 - Shallow Copy vs. Deep Copy, and cloneObject
 
-I added a page for `cloneObject()`, a Javascript function that clones a JavaScript object by performing a deep copy of non-inherited properties.  I needed this functionality as part of functions I was writing to validate and manipulate application configurations, where those configurations are represented in memory as Javascript objects.  Besides the deep copy functionality itself, this code illustrates:
+While writing Javascript functions to validate and manipulate application configurations, where those configurations are represented in memory as Javascript objects, I needed to perform a deep copy of Javascript objects.
+
+### Shallow Copy vs. Deep Copy
+
+In a shallow copy of an object, any object properties that are memory references are copied as memory references.  This means that changes to referenced memory are reflected in the original object's property *and* the copied object's property. For example:
+
+```
+let sourceObject = {"a": 100};
+let targetObject = sourceObject;    // targetObject.a == 100
+
+sourceObject.a = 101;               // targetObject.a == 101
+```
+
+In a deep copy of an object, all object properties are duplicated. This includes source object properties that are themselves memory references. For example:
+
+```
+let sourceObject = {"a": 100, "b": {"i": 200, "ii": 300}};
+let targetObject = {};
+targetObject.a = sourceObject.a;
+targetObject.b = {}
+targetObject.b.i = 200;
+targetObject.b.ii = 300;
+```
+
+`sourceObject` and `targetObject` are both now `{"a": 100, "b": {"i": 200, "ii": 300}}`.  However, the primary variables and any properties that are objects are not equivalent; they don't refer to the same memory locations.
+
+```
+sourceObject       == targetObject;        // false
+sourceObject.a     == targetObject.a;      // true
+sourceObject.b     == targetObject.b;      // false
+sourceObject.b.i   == targetObject.b.i;    // true
+sourceObject.bi.ii == targetObject.b.ii;   // true
+```
+
+This means that any changes to the original don't have any impact on the copy.
+
+```
+sourceObject.a = 101;      // targetObject.a == 100 (still)
+sourceObject.b.i = 201;    // targetObject.b.i == 200 (still)
+sourceObject.b.ii = 301;   // targetObject.b.ii == 300 (still)
+```
+
+### cloneObject Function
+
+I wrote a cloneObject() function to performing a deep copy of non-inherited object properties.
+ 
+Besides the deep copy functionality itself, this code illustrates:
 
  - iterating through Javascript object properties,
 
