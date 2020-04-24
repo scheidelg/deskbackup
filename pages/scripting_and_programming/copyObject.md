@@ -24,6 +24,8 @@ Besides the deep copy functionality itself, this code illustrates:
 
 Click [here](https://www.scheidel.net/library/copyObject.js) to view the entire Javascript function, along with some code to demonstrate it's use.
 
+Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the entire Javascript function, minified to ~1,100 characters.
+
 ## References
 
  1. [Cyber Defense NetWars](https://www.sans.org/netwars/cyber-defense) on sans.org
