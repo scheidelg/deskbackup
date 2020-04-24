@@ -42,7 +42,7 @@ NEED SOMETHING HERE - MORE DETAIL!
 
  3. [copyObject() Code](/library/copyObject.js)
 
-    Source code for the entire Javascript function, along with some code to demonstrate it's use.
+    Source code for the entire Javascript function, along with some code to demonstrate it's use. Includes detailed comments to explain the function's use, arguments, variables, and logic.
 
  4. [copyObject() Minified Code](/library/copyObject-mini.js)
 
