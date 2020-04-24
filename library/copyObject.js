@@ -212,11 +212,6 @@ Licensed under the GNU General Public License v3.0.
 ----------------------------------------------------------------------------*/
 function copyObject(sourceObject, targetObject, copyType) {
 
-    /* Initialize objStack (for circular reference checks) to the initial
-     * object, with corresponding placeholder text in keyStack. */
-    const keyStack = ['(root)'];
-    const objStack = [sourceObject];
-
     /* Define a child function that will be called for the recursive copy.
      *
      * Note:
@@ -397,6 +392,11 @@ function copyObject(sourceObject, targetObject, copyType) {
 
         return(returnValue);
     }
+
+    /* Initialize objStack (for circular reference checks) to the initial
+     * object, with corresponding placeholder text in keyStack. */
+    const keyStack = ['(root)'];
+    const objStack = [sourceObject];
 
     /* Note: Technically the argument validation and (if copyType is 0 or
      * undefined) initial deletion of all object properties could be performed
