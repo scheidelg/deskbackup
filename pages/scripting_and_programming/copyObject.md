@@ -22,7 +22,7 @@ Besides the deep copy functionality itself, this code illustrates:
 
  - checking for circular recursion.
 
-Click [here](https://www.scheidel.net/library/copyObject.sh.txt) to view the entire Javascript function, along with some code to demonstrate it's use.
+Click [here](https://www.scheidel.net/library/copyObject.js) to view the entire Javascript function, along with some code to demonstrate it's use.
 
 ## References
 
