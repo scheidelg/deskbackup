@@ -38,9 +38,13 @@ Besides the deep copy functionality itself, this code illustrates:
 
     Source code for the entire Javascript function, along with some code to demonstrate its use. Includes detailed comments to explain the function's use, arguments, variables, and logic.
 
+    [https://www.scheidel.net/library/copyObject.js]()
+
  2. [copyObject() Minified Code](/library/copyObject-mini.js)
 
     Source code for the Javascript function minified to ~1,100 characters.
+
+    [https://www.scheidel.net/library/copyObject-mini.js]()
 
  3. [Blog Entry - 04/24 - Shallow Copy vs. Deep Copy, and copyObject](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject)
 
