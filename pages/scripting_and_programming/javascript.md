@@ -26,9 +26,9 @@ Besides the deep copy functionality itself, this code illustrates:
 
 Click [here](copyObject.md) for more details.
 
-Click [here](https://www.scheidel.net/library/copyObject.js) to view the entire Javascript function, along with some code to demonstrate it's use.
+Click [here](https://www.scheidel.net/library/copyObject.js) to view the Javascript function along with some code to demonstrate it's use. Please note that the full Javascript code includes detailed comments to explain the function's use, arguments, variables, and logic.
 
-Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the entire Javascript function, minified to ~1,100 characters.
+Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the Javascript code minified to ~1,100 characters.
 
 ## next item
 
