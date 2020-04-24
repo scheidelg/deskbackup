@@ -40,17 +40,17 @@ NEED SOMETHING HERE - MORE DETAIL!
  
     [https://www.sans.org/instructors/ryan-nicholson]()
 
- 3. [cloneObject() Code](/library/cloneObject.js)
+ 3. [copyObject() Code](/library/copyObject.js)
 
     Source code for the entire Javascript function, along with some code to demonstrate it's use.
 
-    [https://www.scheidel.net/library/cloneObject.js]()
+    [https://www.scheidel.net/library/copyObject.js]()
 
- 4. [cloneObject() Minified Code](library/cloneObject-mini.js)
+ 4. [copyObject() Minified Code](library/copyObject-mini.js)
 
     Source code for the Javascript function minified to ~1,100 characters.
 
-    [https://www.scheidel.net/library/cloneObject-mini.js]()
+    [https://www.scheidel.net/library/copyObject-mini.js]()
 
  5. [Blog Entry - 04/24 - Shallow Copy vs. Deep Copy, and copyObject](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject)
 
