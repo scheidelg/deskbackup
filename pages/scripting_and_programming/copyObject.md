@@ -46,11 +46,11 @@ NEED SOMETHING HERE - MORE DETAIL!
 
     [https://www.scheidel.net/library/copyObject.js]()
 
- 4. [copyObject() Minified Code](library/copyObject-mini.js)
+ 4. [copyObject() Minified Code](/library/copyObject-mini.js)
 
     Source code for the Javascript function minified to ~1,100 characters.
 
-    [https://www.scheidel.net/library/copyObject-mini.js]()
+    [/library/copyObject-mini.js]()
 
  5. [Blog Entry - 04/24 - Shallow Copy vs. Deep Copy, and copyObject](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject)
 
