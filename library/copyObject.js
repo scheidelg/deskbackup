@@ -335,7 +335,7 @@ function copyObject(sourceObject, targetObject, copyType) {
                      * references.  If we find it, then
                      * sourceObject[propertyKey] is a circular reference.
                      */
-                    let ancestorCheck = objStack.indexOf(sourceObject[propertyKey]);
+                    const ancestorCheck = objStack.indexOf(sourceObject[propertyKey]);
 
                     /* Recurse if this isn't a circular reference. */
                     if (ancestorCheck == -1) {
