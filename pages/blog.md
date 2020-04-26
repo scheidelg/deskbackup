@@ -4,7 +4,7 @@ See [Blogging Notes](#Blogging_Notes) for information on how the blog and blog e
 
 ## 04/24 - Shallow Copy vs. Deep Copy, and copyObject
 
-While writing Javascript functions to validate and manipulate application configurations, where those configurations are represented in memory as Javascript objects, I needed to perform a deep copy of Javascript objects.
+While writing JavaScript functions to validate and manipulate application configurations, where those configurations are represented in memory as JavaScript objects, I needed to perform a deep copy of the objects.
 
 ### Shallow Copy vs. Deep Copy
 
@@ -48,7 +48,7 @@ sourceObject.b.ii = 301;   // targetObject.b.ii == 300 (still)
 
 ### copyObject Function
 
-I wrote a copyObject() function to perform a deep copy of non-inherited object properties. Since I needed to combine different configuration 'branches' I included the ability to retain existing properties of the target object. There are three options:
+I wrote a copyObject() function to perform a deep copy of non-inherited object properties, optionally retaining existing properties of the target option so that the source and target are effectively merged. Existing target object properties can be handled one of three ways:
 
  - Delete any existing target object properties.
 
@@ -58,9 +58,9 @@ I wrote a copyObject() function to perform a deep copy of non-inherited object p
 
 Besides the deep copy functionality itself, this code illustrates:
 
- - iterating through Javascript object properties,
+ - iterating through JavaScript object properties,
 
- - manipulating Javascript objects,
+ - manipulating JavaScript objects,
 
  - recursion, and
 
@@ -68,7 +68,7 @@ Besides the deep copy functionality itself, this code illustrates:
 
 Click [here](/pages/scripting_and_programming/copyObject.md) for details.
 
-*#Javascript #scripting | 2020.04.24 11:15 ET*
+*#JavaScript #scripting | 2020.04.24 11:15 ET*
 
 ## 03/26 - hexdiff.sh
 
