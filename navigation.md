@@ -35,7 +35,7 @@
   * [CMD](pages/scripting_and_programming/cmd.md)
   * [PowerShell](pages/scripting_and_programming/powershell.md)
   * [bash](pages/scripting_and_programming/bash.md)
-  * [Javascript](pages/scripting_and_programming/javascript.md)
+  * [JavaScript](pages/scripting_and_programming/javascript.md)
   * [Perl](pages/scripting_and_programming/perl.md)
   * [Python](pages/scripting_and_programming/python.md)
   - - - -
