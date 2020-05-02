@@ -18,7 +18,7 @@ A simple framework for creating and working with application configuration setti
 
  - A configuration schema that determines the structure of the application's configuration settings including valid options, required options, values for each option, and default values. The configuration schema should be defined by the application developer and not be modified by an application administrator or user.
 
- - A configuration that defines the configuration for the application. The configuration file should be defined by the application developer, administrator, or possibly by the administrator or user through an application interface.
+ - A configuration that defines the configuration for the application. The configuration file should be defined by the application developer or administrator, or possibly by the administrator or user through an application interface.
 
  - Functions to work with the configuration schema and configuration including reading the configuration schema and configuration from a JSON file, validating the configuration schema's structure and contents, and validating that the configuration is compatible with the configuration schema.
 
