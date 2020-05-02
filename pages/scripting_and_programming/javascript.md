@@ -6,16 +6,6 @@ A JavaScript function that copies a JavaScript object by performing a deep copy 
 
 See [this blog entry](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_copyObject) for a brief overview of shallow copy vs. deep copy.
 
-Besides the deep copy functionality itself, this code illustrates:
-
- - iterating through JavaScript object properties,
-
- - manipulating JavaScript objects,
-
- - recursion, and
-
- - checking for circular recursion.
-
 Click [here](copyObject.md) for more details.
 
 Click [here](https://www.scheidel.net/library/copyObject.js) to view the JavaScript function along with some code to demonstrate it's use. Please note that the full JavaScript code includes detailed comments to explain the function's use, arguments, variables, and logic.
