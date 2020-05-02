@@ -24,7 +24,7 @@ A simple framework for creating and working with application configuration setti
 
 Click [here](csm.md) for more details.
 
-Click [here](https://www.scheidel.net/library/csm.js) to view the JavaScript functions along with some code to demonstrate it's use. Please note that the full JavaScript code includes detailed comments to explain the function's use, arguments, variables, and logic.
+Click [here](https://www.scheidel.net/library/csm.js) to view the JavaScript functions along with some code to demonstrate its use. Please note that the full JavaScript code includes detailed comments to explain the function's use, arguments, variables, and logic.
 
 Click [here](https://www.scheidel.net/library/csm-mini.js) to view the JavaScript code minified to ~XXXXXXXXXXXXXXXXXXx characters.
 
