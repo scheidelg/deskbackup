@@ -8,9 +8,9 @@ See [this blog entry](/pages/blog.md#04/24_-_Shallow_Copy_vs._Deep_Copy,_and_cop
 
 Click [here](copyObject.md) for more details.
 
-Click [here](https://www.scheidel.net/library/copyObject.js) to view the JavaScript function along with some code to demonstrate its use. Please note that the full JavaScript code includes detailed comments to explain the function's use, arguments, variables, and logic.
+Click [here](/library/copyObject.js) to view the JavaScript function along with some code to demonstrate its use. Please note that the full JavaScript code includes detailed comments to explain the function's use, arguments, variables, and logic.
 
-Click [here](https://www.scheidel.net/library/copyObject-mini.js) to view the JavaScript code minified to ~1,100 characters.
+Click [here](/library/copyObject-mini.js) to view the JavaScript code minified to ~1,100 characters.
 
 ## Configuration Settings Management (CSM)
 
@@ -24,8 +24,8 @@ A simple framework for creating and working with application configuration setti
 
 Click [here](csm.md) for more details.
 
-Click [here](https://www.scheidel.net/library/csm.js) to view the JavaScript functions along with some code to demonstrate its use. Please note that the full JavaScript code includes detailed comments to explain the function use, arguments, variables, and logic.
+Click [here](/library/csm.js) to view the JavaScript functions along with some code to demonstrate their use. Please note that the full JavaScript code includes detailed comments to explain the function use, arguments, variables, and logic.
 
-Click [here](https://www.scheidel.net/library/csm-mini.js) to view the JavaScript code minified to ~XXXXXXXXXXXXXXXXXXx characters.
+Click [here](/library/csm-mini.js) to view the JavaScript code minified to ~XXXXXXXXXXXXXXXXXXx characters.
 
 <hr class="tight"><p class="timestamp">Page updated >= 2020.04.25 14:13 ET</p>
