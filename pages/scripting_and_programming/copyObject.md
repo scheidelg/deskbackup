@@ -51,6 +51,6 @@ Besides the deep copy functionality itself, this code illustrates:
     A brief overview of shallow copy vs. deep copy.
 
 <hr class="tight">
-Return to [Javascript](/pages/scripting_and_programming/javascript.md) page.
+Return to [JavaScript](/pages/scripting_and_programming/javascript.md) page.
 
 <hr class="tight"><p class="timestamp">Page updated >= 2020.04.24 11:32 ET</p>
