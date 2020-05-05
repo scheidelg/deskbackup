@@ -14,9 +14,21 @@ Click [here](/library/csm-mini.js) to view the JavaScript code minified to ~XXXX
 
 ## Configuration Schema
 
-A configuration schema can be defined in either a JavaScript object included in the source code or in a JSON file that is read, and can include:
+A configuration schema can be defined in either a JavaScript object included in the source code or in a JSON file that is read.  A configuration schema includes the following:
 
- - nested options,
+ - [Option definitions](#Option_Definitions) that determine what options can be used in the [configuration file](#Configuration_File), including default values.
+
+ - [Schema directives](#Schema_Directives) that define either:
+ 
+    - details of options such as whether the option is required, whether the option should be created by default, and acceptable values;
+
+    - [regular expression classes](#Regular_Expression_Classes) that can be used with option values and dynamic option names; or
+
+    - [option classes](#Option_Classes) that can be inherited by options as part of their [option definitions](#Option_Definitions) or corresponding [schema directives](#Schema_Directives)..
+ 
+and can include:
+
+ - option defin
 
  - option classes with properties that can be inherited by options,
 
@@ -24,13 +36,35 @@ A configuration schema can be defined in either a JavaScript object included in 
 
  - regular expression classes that can be used for option names and values.
 
+### Option Definitions
+
+An option definition can either define nesting or the the default value for each option.  (blah, blah blah)
+
+(variable name name definitions)
+
+### Schema Directives
+
+(describe schema directives for defining options; reference 'regular expression classes' and 'option classes')
+
+### Regular Expression Classes
+
+(note this is a form of 'schema directive')
+
+### Option Classes
+
+(note this is a form of 'schema directive')
+
+### Comments
+
+(how to use comments in a configuration schema file; in a variable declaration just follow JavaScript rules; this subsection is essentially duplicated under Configuration File)
+
 ### Terminology
 
-
+(might not need this; or might keep it as a summary, but bump up to second level instead of keeping it under Configuration Schema)
 
 ### Structure
 
-A configuration schema has the following structure:
+A configuration schema has the following structure: (need to reword this intro in light of the previous sections/subsections structure)
 
 ```
 {
