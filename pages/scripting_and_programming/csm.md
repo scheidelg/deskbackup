@@ -14,33 +14,91 @@ Click [here](/library/csm-mini.js) to view the JavaScript code minified to ~XXXX
 
 ## Configuration Schema
 
-A configuration schema can be defined in either a JavaScript object included in the source code or in a JSON file that is read.  A configuration schema includes the following:
+A configuration schema can be defined in either a JavaScript object variable, or in a JSON file that is read into a JavaScript object variable.  A configuration schema includes the following:
 
- - [Option definitions](#Option_Definitions) that determine what options can be used in the [configuration file](#Configuration_File), including default values.
+ - [Option declarations](#Option_Declarations) that determine what configuration options can be used in the [configuration file](#Configuration_File), including default values.
 
  - [Schema directives](#Schema_Directives) that define either:
  
-    - details of options such as whether the option is required, whether the option should be created by default, and acceptable values;
+    - details of configuration options such as whether the option is required, whether the option should be created by default, and acceptable values;
 
     - [regular expression classes](#Regular_Expression_Classes) that can be used with option values and dynamic option names; or
 
-    - [option classes](#Option_Classes) that can be inherited by options as part of their [option definitions](#Option_Definitions) or corresponding [schema directives](#Schema_Directives)..
+    - [option classes](#Option_Classes) that can be inherited by options as part of their [option declarations](#Option_Declarations) or corresponding schema directives.
  
-and can include:
+### Structure
 
- - option defin
+A configuration schema has the following structure: (need to reword this intro in light of the previous sections/subsections structure)
 
- - option classes with properties that can be inherited by options,
+```
+{
+    // '(regexClasses)' is optional; it can be used to define one or more
+    // regular expression classes
+    "(regexClasses)": {
+        "<regexClassName>": "<regexClassExpression>"
+        [...]
+    },
 
- - regular expressions to identify allowable option names and values, and
+    // '(optionClasses)' is optional; it can be used to define one or more
+    // option classes; each option class is defined by an option declaration
+    // and a matching schema directive
+    "(optionClasses)": {
+        // one or more option declarations
+        "<optionClassName>": <optionClassValue>,
+        [...]
 
- - regular expression classes that can be used for option names and values.
+        // matching schema directives
+        "(<optionClassName>)" : {
+            <directive-options>
+        }
+        [...]
+    }
 
-### Option Definitions
+    // one or more option declarations
+    "<optionName>": <optionNameValue>,
+    [...]
 
-An option definition can either define nesting or the the default value for each option.  (blah, blah blah)
+    // matching  schema directives
+    "(<optionName>)": {
+        <directive-options>
+    }
+    [...]
+}
+```
 
-(variable name name definitions)
+### Example Configuration Schema
+
+```
+(use the GHPA configuration schema)
+```
+
+### Option Declarations
+
+Option declarations determine what configuration options can be used in the [configuration](#Configuration). An option declaration can take one of two forms.
+
+ 1. A key-value pair where the key is the name of the option and the value is the option's default value.
+
+    In the [example configuration schema](#Example_Configuration_Schema), the `"tokensOnly": true` key-value pair is an option declaration.  The name of the option is `tokensOnly`; the default value of the option is `true`.
+
+ 2. An object definining an option block that contains (i.e., nests) additional configuration options and corresponding [schema directives](#Schema_Directives).
+
+    There is no 'default value' in this case. Default values would be defined for the individual options nested inside the option block.
+
+    In the [example configuration schema](#Example_Configuration_Schema), the text `"pageOptions": { ... }` is an option declaration that defines an option block.
+
+Option declarations can define either static or variable option names.
+
+ - A static option name in a configuration must exactly match the key specified in the configuration schema's option declaration.
+
+   In the [example configuration schema](#Example_Configuration_Schema), the text `"tokensonly": true` is an option declaration for a static option name.
+
+ - A variable option name in a configuration must match the regular expression defined by the `optionRegex` [directive option](#Directive_Options) in the option's [schema directive](#Schema_Directives). 
+
+   A variable option name is identified by starting the name with an asterisk character ('\*') and using the `optionRegex` directive option.
+
+   In the [example configuration schema](#Example_Configuration_Schema), the text `"*ghpaClass": {}` is an option declaration with a variable option name.
+
+   Multiple option names can be used in a configuration based on a single option declaration for a variable option name, as long as each option name in the configuration is unique at that level of the configuration. For example, the `"*ghpaClass": {}` option declaration supports a configuration of `"global": { ... }, "extra-repo": { ... }, "second-org": { ...}`.
 
 ### Schema Directives
 
@@ -58,53 +116,17 @@ An option definition can either define nesting or the the default value for each
 
 (how to use comments in a configuration schema file; in a variable declaration just follow JavaScript rules; this subsection is essentially duplicated under Configuration File)
 
-### Terminology
+## Terminology
 
 (might not need this; or might keep it as a summary, but bump up to second level instead of keeping it under Configuration Schema)
 
-### Structure
+## Configuration
 
-A configuration schema has the following structure: (need to reword this intro in light of the previous sections/subsections structure)
 
-```
-{
-    // '(regexClasses)' is optional; it can be used to define one or more
-    // regular expression classes
-    "(regexClasses)": {
-        "<regexClassName>": "<regexClassExpression>"
-        [...]
-    },
-    
-    // '(optionClasses)' is optional; it can be used to define one or more
-    // option classes; each option class is defined by an option definition
-    // and a matching directive
-    "(optionClasses)": {
-        // one or more option definitions
-        "<optionClassName>": <optionClassValue>,
-        [...]
 
-        // matching directives
-        "(<optionClassName>)" : {
-            <directive-options>
-        }
-        [...]
-    }
+### Example Configuration
 
-    // one or more option definitions
-    "<optionName>": <optionNameValue>,
-    [...]
-
-    // matching directives
-    "(<optionName>)": {
-        <directive-options>
-    }
-    [...]
-}
-```
-
-(lots more here)
-
-## Configuration File
+(blah, blah, blah)
 
 ## Functions
 
